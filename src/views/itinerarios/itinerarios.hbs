@@ -1,0 +1,77 @@
+<div class="container">
+    <div class="row ">
+        <div class="col my-2">
+            <div class="mx-auto col-sm-12">
+                <!-- form user info -->
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="mb-0 d-flex justify-content-center">Mapas</h4>
+                    </div>
+                    <div class="card-body ">
+                        <form class="form" role="form" autocomplete="off" action="/itinerarios/visual" method="POST">
+                            <div class="my-auto row-sm-4 p-1">
+                                <select name="daySelected" class="custom-select">
+                                    <option selected disabled value="0" style="display:none;">Día
+                                    </option>
+                                    {{#each dias}}
+                                    <option value="{{toJSON this}}">{{dia}}</option>
+                                    {{/each}}
+                                    {{!--
+                                        {{#each itinerarios}}
+                                        <option value="{{toJSON this}}">{{dia}}</option>
+                                        {{/each}}
+                                        --}}
+                                </select>
+                            </div>
+                            <div class="my-auto row-sm-4 p-1">
+                                <select name="userSelected" class="custom-select">
+                                    <option selected disabled value="0" style="display:none;">Reparto
+                                    </option>
+                                    {{#each usuarios}}
+                                    <option value="{{toJSON this}}">{{reparto}}</option>
+                                    {{/each}}
+                                </select>
+                            </div>
+                            <div class="my-auto row-sm-4 p-1">
+                                <select name="turnSelected" class="custom-select">
+                                    <option selected disabled value="0" style="display:none;">Turno
+                                    </option>
+                                    {{#each turnos}}
+                                    <option value="{{toJSON this}}">{{turno}}</option>
+                                    {{/each}}
+                                </select>
+
+                            </div>
+                            <div class="row my-auto">
+                                <button type="submit" class="btn btn-secondary btn-lg btn-block mx-auto col-sm-11 text-center py-0 px-0">
+                                    <small> Visualizar Recorridos </small></button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                <!-- /form user info -->
+            </div>
+        </div>
+        <!--
+        <div class="col my-2">
+            <div class="mx-auto my-auto col-sm-10">
+                 
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="mb-0 d-flex justify-content-center">ABM</h4>
+                    </div>
+                    <div class="card-body px-1">
+                        <button onclick="window.location.href='/itinerarios/alta'" type="button"
+                            class="btn btn-success btn-lg btn-block py-0 mx-auto col-sm-10 text-left"><img class="iconImg" src="img/Icons-18.png"><small>Nuevo Recorrido</small></button>
+                        <button onclick="window.location.href='/itinerarios/modificar'" type="button"
+                           style="color:white" class="btn btn-warning btn-lg btn-block py-0 mx-auto col-sm-10 text-left "><img class="iconImg" src="img/Icons-19.png"><small>Modificar Recorridos</small></button>
+                        <button onclick="window.location.href='/itinerarios/baja'" type="button"
+                            class="btn btn-danger btn-lg btn-block py-0 mx-auto col-sm-10 text-left"><img class="iconImg" src="img/Icons-20.png"><small>Eliminar Recorrido</small></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+    </div>
+</div>

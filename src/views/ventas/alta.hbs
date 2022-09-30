@@ -1,0 +1,255 @@
+<div class="container py-3 pr-0 pl-0">
+    <div class="row">
+        <div class="mx-auto">
+            <!-- form user info -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="row my-auto">
+                        <div class="col-1" style="z-index: 1;">
+                            <button type="button" onclick="window.location.href='/ventas'" class="btn btn-dark"><i
+                                    class="fas fa-chevron-circle-left"></i></button>
+                        </div>
+                        <div class="col-10 my-auto ml-2">
+                            <h5 class="text-center my-auto">Ventas</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body pt-2 pl-2 pr-2 ">
+                    <small id="clientHelp" class="form-text text-muted text-center">No hay datos aún</small>
+                    <div class="form-group row">
+                        <div class="input-group mb-1 w-auto mx-auto">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-secondary" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span id="filterId">Filtro</span> <i class="fas fa-angle-down"></i>
+                                </button>
+                                <div class="dropdown-menu" id="DropClient" data-Clientes="{{toJSON clientesData}}"
+                                    aria-labelledby="dropdownMenuButton">
+                                    {{#each clientesKeys}}
+                                    <a data-Key={{this}} style="cursor: pointer;" onclick="llenarInput(this);"
+                                        class="dropdown-item">{{this}}</a>
+                                    {{/each}}
+                                </div>
+                            </div>
+                            <input type="text" class="form-control selector" aria-describedby="clientHelp"
+                                aria-label="Text input with dropdown button" id="searchInput">
+
+                        </div>
+
+                    </div>
+
+                    <form id="saleForm" class="form" role="form" autocomplete="off" action="" method="POST">
+                        <input type="hidden" class="form-control selector" name="clienteModificar"
+                            id="clienteModificar">
+                        <div class="form-group row mx-auto">
+                            <div class="col">
+                                <label for="date-input" class="mx-auto">Fecha</label>
+                                <input class="form-control" type="date" id="date-input">
+                            </div>
+                            <div class="col">
+                                <label for="time-input" class="mx-auto">Hora</label>
+                                <input class="form-control" step="1" type="time" id="time-input">
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="form-group col-8 pr-1">
+
+
+                                <div class="custom-control custom-checkbox">
+                                    <input onclick="changeAutocomple()" type="checkbox"
+                                        class="custom-control-input pr-0" id="checkProd" checked>
+                                    <label class="custom-control-label mb-2 pl-0" for="checkProd">Producto - <b
+                                            id="autocompletarProd"> Código </b> </label>
+                                </div>
+                                <div class="input-group">
+                                    <input type="number" class="form-control selector"
+                                        aria-label="Seleccione un producto..." id="Prod" name="Producto"
+                                        data-prod="{{toJSON Productos}}" aria-describedby="prodHelp">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="precioProd">$0</span>
+                                    </div>
+                                </div>
+                                <small id="prodHelp" class="form-text text-muted text-center">No hay datos aún</small>
+                                <!--
+                                <select class="custom-select" name="Producto" id='Prod'>
+                                    <option selected disabled hidden>Seleccione un producto...</option>
+                                    <option value="5">Producto 1</option>
+                                    <option value="2">Producto 2</option>
+                                    <option value="8">Producto 3</option>
+                                </select>
+                                -->
+                            </div>
+                            <div class="form-group col-3">
+                                <label for="Cantidad">Cantidad</label>
+                                <div class="row">
+                                    <div class="col-8 pl-1 pr-1">
+                                        <input name="Cantidad" type="number" value="" id='Cant' class="form-control"
+                                            min="0" step="1">
+                                    </div>
+                                    <div class="col-2 pl-1">
+                                        <button name="addButton" id="addButton" type="button"
+                                            class="btn btn-outline-success "><svg width="1em" height="1em"
+                                                viewBox="0 0 16 16" class="bi bi-cart-plus-fill" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM4 14a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm7 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z" />
+                                            </svg></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="toolbar">
+                            <button id="remove" type="button" class="btn btn-danger" disabled>
+                                <i class="fa fa-trash"></i>
+                            </button>
+                            <button type="button" onclick="modifySale($table.bootstrapTable('getAllSelections')[0]);"
+                                data-toggle="modal" data-target="#modifyModal" id="edit" class="btn btn-primary"
+                                disabled>
+                                <i class="fas fa-user-edit"></i>
+                            </button>
+                        </div>
+                        <table class="table" id="table" data-toolbar="#toolbar" data-search="false"
+                            data-show-refresh="false" data-show-toggle="true" data-show-fullscreen="true"
+                            data-show-columns-toggle-all="true" data-detail-view="false" data-show-export="false"
+                            data-single-select="true" data-click-to-select="true"
+                            data-detail-formatter="detailFormatter" data-minimum-count-columns="2"
+                            data-show-pagination-switch="false" data-pagination="false" data-id-field="id"
+                            data-show-footer="true" data-response-handler="responseHandler">
+                        </table>
+
+                        <div class="form-group row mt-3">
+                            <div class="btn-group mx-auto" role="group">
+                                <button type="reset" class="btn btn-secondary mx-1"
+                                    onclick="resetSaleForm();">Cancelar</button>
+                                <button type="button" class="btn btn-primary mx-1"
+                                    onclick="doAjaxRequestAlta()">Ingresar Venta</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- /form user info -->
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modifyModal" tabindex="-1" role="dialog" aria-labelledby="modifyModalTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title" id="modifyModalLongTitle">Modificar Venta</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form id="editSaleForm">
+                <div class="modal-body">
+                    <div class="row mb-1">
+                        <div class="form-group col-9 pr-1 pl-1">
+                            <div class="custom-control custom-checkbox">
+                                <input onclick="changeAutocompleEdit()" type="checkbox"
+                                    class="custom-control-input pr-0" id="editCheckProd" checked>
+                                <label class="custom-control-label mb-2 pl-0" for="editCheckProd">Producto - <b
+                                        id="editAutocompletarProd"> Nombre </b> </label>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" class="form-control selector" aria-describedby="modProdHelp"
+                                    aria-label="Seleccione un producto..." id="modProd" name="modProducto">
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="precioModProd">$0</span>
+                                </div>
+                            </div>
+                            <small id="modProdHelp" class="form-text text-muted text-center">No hay datos aún</small>
+                        </div>
+                        <div class="form-group col-3 pl-1 pr-1">
+                            <label for="Cantidad">Cantidad</label>
+                            <input name="Cantidad" type="number" id="modCant" value="0" class="form-control" min="0"
+                                step="1">
+                        </div>
+
+                    </div>
+                </div>
+                <input type="number" id='modID' hidden>
+                <input type="number" id='modIndex' hidden>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" onclick='updateRow()' data-dismiss="modal"
+                        class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal ALERT -->
+<div class="modal fade" data-backdrop="false" data-keyboard="false" id="modalAlert" tabindex="-1" role="dialog"
+    aria-labelledby="modalAlert" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Alerta</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="alert" id="alerta" role="alert"></div>
+                <div class="text-center" id="spinner" style="display: none;">
+                    <div class="spinner-border spinner-border-lg" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer" id="alertFoot">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" id="btn-confirm">Confirmar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="display: none;" class="form-group row">
+    <label class="col-lg-3 col-form-label form-control-label">Latitud</label>
+    <div class="col-lg-9">
+        <input name="lat" class="form-control" type="text" placeholder="Latitud" required>
+    </div>
+</div>
+<div style="display: none;" class="form-group row">
+    <label class="col-lg-3 col-form-label form-control-label">Longitud</label>
+    <div class="col-lg-9">
+        <input name="lon" class="form-control" type="text" placeholder="Longitud" required>
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="/js/boostrap-table.js"></script>
+<script type="text/javascript" src="/js/saleTable.js"></script>
+<script type="text/javascript" src='/js/LocationGPSRoutes.js'></script>
+<script>
+
+    window.onload = llenarInput($("#DropClient")[0].children[0]), changeAutocomple(), changeAutocompleEdit(), giveBackClient(), getLocationInRealTimeSale();
+    //console.log($("#Prod").attr("data-prod"));
+    window.idUsuarios = {{idUsuarios}};
+</script>
+
+{{#if lastClient}}
+
+<script>
+        function returnDataClient(data) {
+        var dataClient = document.createElement("textarea");
+        dataClient.innerHTML = data;
+        console.log(dataClient.value);
+        return JSON.parse(dataClient.value);
+    };
+    
+    giveBackClient(JSON.stringify(returnDataClient("{{ lastClient }}")));
+    window.history.pushState("","","/ventas/alta");
+</script>
+
+{{/if}}

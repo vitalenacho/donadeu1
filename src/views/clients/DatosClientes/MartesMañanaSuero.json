@@ -1,0 +1,436 @@
+{
+    "clientes": [
+        {
+            "codigo": 1089,
+            "nombreCliente": "Vicente",
+            "direccion": "Zavalla 7002",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N01",
+            "latitud": -31.6007489,
+            "longitud": -60.7069033
+        },
+        {
+            "codigo": 2043,
+            "nombreCliente": "Centurion",
+            "direccion": "san juan y vieytes",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N02",
+            "latitud": -31.5999285,
+            "longitud": -60.7079199
+        },
+        {
+            "codigo": 1087,
+            "nombreCliente": "Elba",
+            "direccion": "pj.Denis 7229",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N03",
+            "latitud": -31.5981874,
+            "longitud": -60.7084232
+        },
+        {
+            "codigo": 3100,
+            "nombreCliente": "Cabrera",
+            "direccion": "Alberti 3680",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N04",
+            "latitud": -31.5988444,
+            "longitud": -60.7073245
+        },
+        {
+            "codigo": 2461,
+            "nombreCliente": "Dietetica Nuñes",
+            "direccion": "F zuviria 6405",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N05",
+            "latitud": -31.6073343,
+            "longitud": -60.7036523
+        },
+        {
+            "codigo": 1094,
+            "nombreCliente": "mercadito marisa",
+            "direccion": "san lorenzo 6504",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N06",
+            "latitud": -31.6059287,
+            "longitud": -60.7057298
+        },
+        {
+            "codigo": 2571,
+            "nombreCliente": "Reartes",
+            "direccion": "gob.freyre 6287",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N07",
+            "latitud": -31.6075627,
+            "longitud": -60.7076031
+        },
+        {
+            "codigo": 2782,
+            "nombreCliente": "Yossen",
+            "direccion": "pedro de vega 3513",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N08",
+            "latitud": -31.6083983,
+            "longitud": -60.7082857
+        },
+        {
+            "codigo": 334,
+            "nombreCliente": "Elda",
+            "direccion": "gdor.Freyre 6103",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N09",
+            "latitud": -31.6090935,
+            "longitud": -60.7081327
+        },
+        {
+            "codigo": 3228,
+            "nombreCliente": "Cristina",
+            "direccion": "Saavedra 5205",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N10",
+            "latitud": -31.6124802,
+            "longitud": -60.706223
+        },
+        {
+            "codigo": 102,
+            "nombreCliente": "Sebastian",
+            "direccion": "Saavedra 5791",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N11",
+            "latitud": -31.6127013,
+            "longitud": -60.7060692
+        },
+        {
+            "codigo": 2319,
+            "nombreCliente": "grimal",
+            "direccion": "d.goyena 3357",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N12",
+            "latitud": -31.6157352,
+            "longitud": -60.708057
+        },
+        {
+            "codigo": 1142,
+            "nombreCliente": "vega",
+            "direccion": "San lorenzo 5617",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N13",
+            "latitud": -31.6138246,
+            "longitud": -60.7081914
+        },
+        {
+            "codigo": 1159,
+            "nombreCliente": "Rodrigo",
+            "direccion": "4 de Enero 3630",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N14",
+            "latitud": -31.632554,
+            "longitud": -60.707992
+        },
+        {
+            "codigo": 1098,
+            "nombreCliente": "Araceli",
+            "direccion": "pje.Huajson 6095",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N15",
+            "latitud": -31.611035,
+            "longitud": -60.699497
+        },
+        {
+            "codigo": 463,
+            "nombreCliente": "Ivan Riedel",
+            "direccion": "D Martinez 2628",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N16",
+            "latitud": -31.610419,
+            "longitud": -60.696278
+        },
+        {
+            "codigo": 1099,
+            "nombreCliente": "Gladys",
+            "direccion": "Ricardo Aldao 1897",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N17",
+            "latitud": -31.6118775,
+            "longitud": -60.6880917
+        },
+        {
+            "codigo": 1100,
+            "nombreCliente": "Sebastian",
+            "direccion": "Gorostiagsa 1898",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N18",
+            "latitud": -31.6136825,
+            "longitud": -60.6878964
+        },
+        {
+            "codigo": 2965,
+            "nombreCliente": "Rosario",
+            "direccion": "Lavaisse 1877",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N19",
+            "latitud": -31.6145564,
+            "longitud": -60.6884548
+        },
+        {
+            "codigo": 2124,
+            "nombreCliente": "Monica",
+            "direccion": "derqui 2127",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N20",
+            "latitud": -31.6176532,
+            "longitud": -60.6922922
+        },
+        {
+            "codigo": 2881,
+            "nombreCliente": "Gonzalez sandra",
+            "direccion": "Derqui 2288",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N21",
+            "latitud": -31.6171044,
+            "longitud": -60.6939422
+        },
+        {
+            "codigo": 3156,
+            "nombreCliente": "Los Pininos",
+            "direccion": "San Jeronimo 3986",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N22",
+            "latitud": -31.6308972,
+            "longitud": -60.7032968
+        },
+        {
+            "codigo": 2903,
+            "nombreCliente": "Soha dietetica",
+            "direccion": "stgo del estero 2570",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N23",
+            "latitud": -31.637872,
+            "longitud": -60.703822
+        },
+        {
+            "codigo": 2081,
+            "nombreCliente": "Felipe",
+            "direccion": "4de enero 3469",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N24",
+            "latitud": -31.6348256,
+            "longitud": -60.7087137
+        },
+        {
+            "codigo": 2913,
+            "nombreCliente": "Minotti",
+            "direccion": "Gdor Vera 3341",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N25",
+            "latitud": -31.6416321,
+            "longitud": -60.715286
+        },
+        {
+            "codigo": 1110,
+            "nombreCliente": "Fernando",
+            "direccion": "J.Diaz Solis 2945",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N26",
+            "latitud": -31.6382401,
+            "longitud": -60.7248441
+        },
+        {
+            "codigo": 2592,
+            "nombreCliente": "Graciela",
+            "direccion": "J d de Solis 3020",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N27",
+            "latitud": -31.6374541,
+            "longitud": -60.7245191
+        },
+        {
+            "codigo": 1111,
+            "nombreCliente": "Maria",
+            "direccion": "J.Diaz Solis 3049",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N28",
+            "latitud": -31.6370611,
+            "longitud": -60.7245599
+        },
+        {
+            "codigo": 1109,
+            "nombreCliente": "Diego",
+            "direccion": "Pj Alfonso 3031",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N29",
+            "latitud": -31.6373454,
+            "longitud": -60.7240377
+        },
+        {
+            "codigo": 2092,
+            "nombreCliente": "leyva",
+            "direccion": "1ra junta 4372",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N30",
+            "latitud": -31.64204,
+            "longitud": -60.729868
+        },
+        {
+            "codigo": 2456,
+            "nombreCliente": "despensa lupe",
+            "direccion": "aguado 2608",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N32",
+            "latitud": -31.6398473,
+            "longitud": -60.7303803
+        },
+        {
+            "codigo": 3120,
+            "nombreCliente": "Zapata",
+            "direccion": "Aguado 2386",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N33",
+            "latitud": -31.6418481,
+            "longitud": -60.731415
+        },
+        {
+            "codigo": 2924,
+            "nombreCliente": "Benites",
+            "direccion": "L de la Torre 4195",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N34",
+            "latitud": -31.6475591,
+            "longitud": -60.7288924
+        },
+        {
+            "codigo": 2896,
+            "nombreCliente": "Martinez",
+            "direccion": "R Saenz Peña 2093",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N35",
+            "latitud": -31.64824,
+            "longitud": -60.7264861
+        },
+        {
+            "codigo": 2912,
+            "nombreCliente": "Belgradi",
+            "direccion": "Corrientes 4058",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N36",
+            "latitud": -31.6503498,
+            "longitud": -60.7277421
+        },
+        {
+            "codigo": 1112,
+            "nombreCliente": "Ivan",
+            "direccion": "J.Diaz Solis 1935",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N37",
+            "latitud": -31.649863,
+            "longitud": -60.728343
+        },
+        {
+            "codigo": 2524,
+            "nombreCliente": "Achaval",
+            "direccion": "Moreno 4181",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N38",
+            "latitud": -31.6512966,
+            "longitud": -60.7299717
+        },
+        {
+            "codigo": 3242,
+            "nombreCliente": "Carlos",
+            "direccion": "Mendoza 4130",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N39",
+            "latitud": -31.6441942,
+            "longitud": -60.7269332
+        },
+        {
+            "codigo": 2715,
+            "nombreCliente": "Dilucca",
+            "direccion": "mendoza 3198",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N40",
+            "latitud": -31.647194,
+            "longitud": -60.714861
+        },
+        {
+            "codigo": 3040,
+            "nombreCliente": "Agustin",
+            "direccion": "Saavedra 2302",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N41",
+            "latitud": -31.6468262,
+            "longitud": -60.7161758
+        },
+        {
+            "codigo": 2804,
+            "nombreCliente": "chiaveta",
+            "direccion": "la rioja y zavalla",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N42",
+            "latitud": -31.6426757,
+            "longitud": -60.7191465
+        },
+        {
+            "codigo": 1116,
+            "nombreCliente": "Karla",
+            "direccion": "L y Planes 3917",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N43",
+            "latitud": -31.6291189,
+            "longitud": -60.7140487
+        },
+        {
+            "codigo": 2114,
+            "nombreCliente": "Viviana",
+            "direccion": "pte.peron 4741",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N44",
+            "latitud": -31.620276,
+            "longitud": -60.7184472
+        },
+        {
+            "codigo": 3229,
+            "nombreCliente": "Tuti",
+            "direccion": "Pte Peron 4836",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N45",
+            "latitud": -31.6191084,
+            "longitud": -60.7181508
+        },
+        {
+            "codigo": 1119,
+            "nombreCliente": "orellano",
+            "direccion": "av l planes 4623",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N46",
+            "latitud": -31.6223294,
+            "longitud": -60.7135455
+        },
+        {
+            "codigo": 2300,
+            "nombreCliente": "Sandra",
+            "direccion": "espora 3166",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N47",
+            "latitud": -31.6021121,
+            "longitud": -60.7013755
+        },
+        {
+            "codigo": 1092,
+            "nombreCliente": "Marisa",
+            "direccion": "pj.Marcengo 7103",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N48",
+            "latitud": -31.6006608,
+            "longitud": -60.7034183
+        },
+        {
+            "codigo": 2106,
+            "nombreCliente": "Loly",
+            "direccion": "espora 3775",
+            "reparto": "MartesMañanaSuero",
+            "orden": "N49",
+            "latitud": -31.6004204,
+            "longitud": -60.7093211
+        }
+    ]
+}

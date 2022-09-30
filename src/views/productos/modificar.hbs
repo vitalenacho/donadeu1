@@ -1,0 +1,194 @@
+<div id="contenedor">
+    <div class="container py-3">
+        <div class="row">
+            <div class="mx-auto col-sm-8">
+                <!-- form user info -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="row my-auto">
+                            <div class="col-1" style="z-index: 1;">
+                                <button type="button" onclick="window.location.href='/dashboard'"
+                                    class="btn btn-dark"><i class="fas fa-chevron-circle-left"></i></button>
+                            </div>
+                            <div class="col-10 my-auto ml-2">
+                                <h5 class="text-center my-auto">Información Productos</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <button class="btn btn-secondary" type="button" id="dropdownMenuButton"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span id="filterId">Filtro</span> <i class="fas fa-angle-down"></i>
+                                    </button>
+                                    <div class="dropdown-menu" id="DropProduct" aria-labelledby="dropdownMenuButton">
+                                        {{#each productosKeys}}
+                                        <a data-Key={{this}} style="cursor: pointer;" onclick="llenarInput(this);"
+                                            class="dropdown-item">{{this}}</a>
+                                        {{/each}}
+                                    </div>
+                                </div>
+                                <input type="text" class="form-control selector"
+                                    aria-label="Text input with dropdown button" id="searchInput">
+                            </div>
+                        </div>
+                        <form class="form" role="form" autocomplete="off" action="/productos/modificar" method="POST">
+                            <input type="hidden" class="form-control selector" name="productoModificar">
+
+
+                            <div class="form-group row d-none">
+                                <label class="col-lg-2 col-form-label form-control-label text-center">Fecha y
+                                    Hora</label>
+                                <div class="col-lg-9">
+                                    <input name="fechaMod" id="fechaNueva" class="form-control" type="datetime"
+                                        placeholder="Fecha y Hora">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label form-control-label text-center">Nombre</label>
+                                <div class="col-lg-9">
+                                    <input name="nombre" class="form-control" type="text"
+                                        placeholder="Ingrese un Nombre" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label form-control-label text-center">Alias</label>
+                                <div class="col-lg-9">
+                                    <input name="alias" class="form-control" type="text"
+                                        placeholder="Ingrese el Alias del Producto" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label form-control-label text-center">Precio 1</label>
+                                <div class="col-lg-9">
+                                    <input name="precio1" class="form-control" type="number" placeholder="Precio1"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label
+                                    class="col-lg-2 col-form-label form-control-label text-center font-weight-normal">Precio
+                                    2</label>
+                                <div class="col-lg-9">
+                                    <input name="precio2" class="form-control" type="number"
+                                        placeholder="Precio actual">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="btn-group mx-auto" role="group">
+                                    <button type="reset" class="btn btn-secondary mx-1">Cancelar</button>
+                                    <button type="submit" class="btn btn-primary mx-1">Modificar Producto</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- /form user info -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    //console.log($("#DropProduct")[0].children[0]);
+    window.productsData = {{{productosData}}};
+    window.onload = llenarInput($("#DropProduct")[0].children[0]);
+    function llenarInput(elemento) {
+        $("#filterId").text(elemento.getAttribute("data-Key"));
+        $('.active').removeClass('active');
+        $(elemento).addClass('active');
+        document.getElementById("searchInput").value = "";
+        const keyName = elemento.getAttribute("data-Key");
+        //const dataForm = JSON.parse(document.getElementById("dataClient").getAttribute("data-Clientes"));
+        const dataForm = window.productsData;
+        var dataSuggest = [];
+        for (i = 0; i < dataForm.length; i++) {
+            //if (typeof dataForm[i][keyName] === 'string') {
+            dataSuggest.push({ label: dataForm[i][keyName], idx: i })
+            //} else {
+            //    dataSuggest.push({ label: JSON.stringify(dataForm[i][keyName]), idx: i });
+            //}
+        }
+        //console.log(dataSuggest);
+        $(".selector").autocomplete({
+            source: dataSuggest
+        });
+    }
+
+    $(".selector").autocomplete({
+        select: function (event, ui) {
+            //console.log("Selectionaste");
+            const indice = ui.item.idx;
+            //const dataForm = JSON.parse(document.getElementById("dataClient").getAttribute("data-Clientes"));
+            const dataForm = window.productsData;
+            //console.log(JSON.stringify(dataForm[indice]));
+            //LlenarFormulario_v2(dataForm[indice]);
+            LlenarFormulario(dataForm[indice], true);
+        }
+    });
+
+    $('.modal-content input').keydown(function (e) {
+        if (e.keyCode == 13) {
+            e.preventDefault();
+            return false;
+        }
+    });
+
+
+
+    function LlenarFormulario(elemento, flag) {
+        var data = elemento;
+        //console.log(data);
+        //var formInp = document.getElementsByTagName("input");
+        var formInp = document.querySelectorAll(".form-control");
+        //console.log(formInp2);
+        for (i = 0; i < formInp.length; i++) {
+            var nameOfInput = formInp[i].getAttribute("name");
+            if (nameOfInput == "direccion") {
+                formInp[i].value = data[nameOfInput];
+                var markerBox = formInp[i].value;
+            } else if (nameOfInput == "direccionData") {
+                var newDirection = {
+                    Street: data.calle,
+                    HouseNumber: data.numero,
+                    City: data.ciudad,
+                    State: data.provincia,
+                    Country: data.pais,
+                    PostalCode: data.codigoPostal,
+                };
+                formInp[i].value = JSON.stringify(newDirection);
+            } else if (nameOfInput == "idDireccion") {
+                formInp[i].value = data.idDireccion;
+            } else if (nameOfInput == "fechaMod") {
+                setDateTime();
+            } else {
+                formInp[i].value = data[nameOfInput];
+            }
+        }
+        document.getElementsByName("productoModificar")[0].value = JSON.stringify(
+            data
+        );
+
+    }
+
+    function setDateTime() {
+        var options = {
+            year: "numeric",
+            month: "2-digit",
+            day: "2-digit",
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit",
+        };
+
+        var fecha0 = new Date().toLocaleString("es-AR", options).split(" ");
+        var fecha = [fecha0[0].split("/").reverse().join("-"), fecha0[1]].join(" ");
+        document.getElementById("fechaNueva").value = fecha;
+    }
+</script>

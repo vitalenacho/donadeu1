@@ -1,0 +1,424 @@
+{
+    "clientes": [
+        {
+            "codigo": 1293,
+            "nombreCliente": "Herman",
+            "direccion": "1ra junta 4839",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C01",
+            "latitud": -31.6907816,
+            "longitud": -60.7945784
+        },
+        {
+            "codigo": 1310,
+            "nombreCliente": "Arce",
+            "direccion": "13 de dic 4590",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C02",
+            "latitud": -31.6882085,
+            "longitud": -60.7874584
+        },
+        {
+            "codigo": 2570,
+            "nombreCliente": "Arce",
+            "direccion": "marconi 4450",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C03",
+            "latitud": -31.6875254,
+            "longitud": -60.7888482
+        },
+        {
+            "codigo": 1294,
+            "nombreCliente": "Carlini",
+            "direccion": "maipu 3475",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C04",
+            "latitud": -31.6887043,
+            "longitud": -60.785625
+        },
+        {
+            "codigo": 3039,
+            "nombreCliente": "Contreras",
+            "direccion": "Richieri 3039",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C05",
+            "latitud": -31.6852496,
+            "longitud": -60.7864705
+        },
+        {
+            "codigo": 1307,
+            "nombreCliente": "Peralta",
+            "direccion": "Richieri 3260",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C06",
+            "latitud": -31.6858017,
+            "longitud": -60.7813425
+        },
+        {
+            "codigo": 2626,
+            "nombreCliente": "Rossi",
+            "direccion": "Av Lujan 4377",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C07",
+            "latitud": -31.6869771,
+            "longitud": -60.7800911
+        },
+        {
+            "codigo": 3179,
+            "nombreCliente": "Garcia",
+            "direccion": "Lavalle 2676",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C08",
+            "latitud": -31.6883333,
+            "longitud": -60.7751269
+        },
+        {
+            "codigo": 1311,
+            "nombreCliente": "Contreros",
+            "direccion": "cordoba 4245",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C09",
+            "latitud": -31.6864564,
+            "longitud": -60.7731755
+        },
+        {
+            "codigo": 1296,
+            "nombreCliente": "Camerano",
+            "direccion": "frutos 2550",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C10",
+            "latitud": -31.683311,
+            "longitud": -60.7717061
+        },
+        {
+            "codigo": 3027,
+            "nombreCliente": "Cerri",
+            "direccion": "Uruguay 2274",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C11",
+            "latitud": -31.682418,
+            "longitud": -60.7684945
+        },
+        {
+            "codigo": 3149,
+            "nombreCliente": "Silvina",
+            "direccion": "Maleti 2560",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C12",
+            "latitud": -31.6840966,
+            "longitud": -60.7722634
+        },
+        {
+            "codigo": 3113,
+            "nombreCliente": "Victor",
+            "direccion": "Maletti 2640",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C13",
+            "latitud": -31.6839281,
+            "longitud": -60.7731822
+        },
+        {
+            "codigo": 3150,
+            "nombreCliente": "Escalante",
+            "direccion": "Maleti 2677",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C14",
+            "latitud": -31.6839974,
+            "longitud": -60.7738852
+        },
+        {
+            "codigo": 1306,
+            "nombreCliente": "Grecco",
+            "direccion": "Lujan 4196",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C15",
+            "latitud": -31.6848063,
+            "longitud": -60.7786266
+        },
+        {
+            "codigo": 3151,
+            "nombreCliente": "Aguilar",
+            "direccion": "Azcuenaga 3543",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C16",
+            "latitud": -31.6782886,
+            "longitud": -60.7772694
+        },
+        {
+            "codigo": 2868,
+            "nombreCliente": "Spitale",
+            "direccion": "Balcarce 2831",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C17",
+            "latitud": -31.6764616,
+            "longitud": -60.7736452
+        },
+        {
+            "codigo": 1804,
+            "nombreCliente": "ferrero",
+            "direccion": "lujan 3260",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C18",
+            "latitud": -31.6769549,
+            "longitud": -60.7722548
+        },
+        {
+            "codigo": 3050,
+            "nombreCliente": "Pardo",
+            "direccion": "Lujan 2857",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C19",
+            "latitud": -31.6733574,
+            "longitud": -60.7692869
+        },
+        {
+            "codigo": 2946,
+            "nombreCliente": "Medey",
+            "direccion": "Hernandarias 2358",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C20",
+            "latitud": -31.6730788,
+            "longitud": -60.7676782
+        },
+        {
+            "codigo": 1334,
+            "nombreCliente": "Nanci",
+            "direccion": "aristobulo 2338",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C21",
+            "latitud": -31.6762119,
+            "longitud": -60.7679119
+        },
+        {
+            "codigo": 2884,
+            "nombreCliente": "vicens",
+            "direccion": "alberdi esq.moreno",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C22",
+            "latitud": -31.6810413,
+            "longitud": -60.7697459
+        },
+        {
+            "codigo": 1366,
+            "nombreCliente": "Paredes",
+            "direccion": "alberdi 2223",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C23",
+            "latitud": -31.6813751,
+            "longitud": -60.7681497
+        },
+        {
+            "codigo": 2775,
+            "nombreCliente": "Carniello",
+            "direccion": "formosa 2152",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C24",
+            "latitud": -31.6820918,
+            "longitud": -60.7666224
+        },
+        {
+            "codigo": 1537,
+            "nombreCliente": "Rodriguez",
+            "direccion": "Frutos 2128",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C25",
+            "latitud": -31.6821364,
+            "longitud": -60.76616
+        },
+        {
+            "codigo": 2700,
+            "nombreCliente": "Iris",
+            "direccion": "L y Planez 2033",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C26",
+            "latitud": -31.6789759,
+            "longitud": -60.7651634
+        },
+        {
+            "codigo": 1372,
+            "nombreCliente": "Molina",
+            "direccion": "iriondo y 12 sep",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C27",
+            "latitud": -31.680322,
+            "longitud": -60.7626182
+        },
+        {
+            "codigo": 1428,
+            "nombreCliente": "Monnelo",
+            "direccion": "mitre esq.12 sep",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C28",
+            "latitud": -31.6829575,
+            "longitud": -60.7554195
+        },
+        {
+            "codigo": 1429,
+            "nombreCliente": "Sirabici",
+            "direccion": "l.de la torre 1232",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C29",
+            "latitud": -31.6811566,
+            "longitud": -60.7557669
+        },
+        {
+            "codigo": 1344,
+            "nombreCliente": "Ferrez",
+            "direccion": "arenales 1550",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C30",
+            "latitud": -31.6788761,
+            "longitud": -60.7597475
+        },
+        {
+            "codigo": 1300,
+            "nombreCliente": "Martinez",
+            "direccion": "Candiotti 3201",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C31",
+            "latitud": -31.6793047,
+            "longitud": -60.7567742
+        },
+        {
+            "codigo": 2029,
+            "nombreCliente": "musulmana",
+            "direccion": "hernandarias 1496",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C32",
+            "latitud": -31.6746737,
+            "longitud": -60.7576015
+        },
+        {
+            "codigo": 1461,
+            "nombreCliente": "Carvilla",
+            "direccion": "gral. Lopez 2052",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santo Tome",
+            "orden": "C33",
+            "latitud": -31.671417,
+            "longitud": -60.7640656
+        },
+        {
+            "codigo": 2825,
+            "nombreCliente": "perez",
+            "direccion": "bv zavalla 1253",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "C34",
+            "latitud": -31.6584173,
+            "longitud": -60.7238317
+        },
+        {
+            "codigo": 1304,
+            "nombreCliente": "Wendt",
+            "direccion": "amenabar 3799",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "C35",
+            "latitud": -31.6565521,
+            "longitud": -60.7257909
+        },
+        {
+            "codigo": 1302,
+            "nombreCliente": "Rodriguez",
+            "direccion": "uruguay 3846",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "C36",
+            "latitud": -31.6587117,
+            "longitud": -60.7273187
+        },
+        {
+            "codigo": 2953,
+            "nombreCliente": "Silvia",
+            "direccion": "Zaballa 1277",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "C37",
+            "latitud": -31.6581227,
+            "longitud": -60.7237652
+        },
+        {
+            "codigo": 2549,
+            "nombreCliente": "Salgado",
+            "direccion": "freyre 1246",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "C38",
+            "latitud": -31.658563,
+            "longitud": -60.722421
+        },
+        {
+            "codigo": 3001,
+            "nombreCliente": "Diaz",
+            "direccion": "Psje Alfonso 1045",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "C39",
+            "latitud": -31.6598414,
+            "longitud": -60.7301625
+        },
+        {
+            "codigo": 3176,
+            "nombreCliente": "Gelso",
+            "direccion": "9 de Julio 1898",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "C40",
+            "latitud": -31.653287,
+            "longitud": -60.71125
+        },
+        {
+            "codigo": 3190,
+            "nombreCliente": "Martinez",
+            "direccion": "M11,esc3,pb,dpto16",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "C41",
+            "latitud": -31.6646871,
+            "longitud": -60.7268084
+        },
+        {
+            "codigo": 3230,
+            "nombreCliente": "Godoy",
+            "direccion": "San juan 1158",
+            "reparto": "MartesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "C42",
+            "latitud": -31.6594152,
+            "longitud": -60.7253507
+        }
+    ]
+}

@@ -1,0 +1,546 @@
+<nav id="sidebarVisual" style="opacity: 0.7;">
+    <ul class="list-unstyled components" style="height: 100vh;">
+        <div class="row align-items-center mx-0">
+
+            <div id="dismiss" class="py-2 px-2 my-auto mx-auto">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+            <div class="sidebar-header py-1 my-auto mx-auto text-center">
+                <h3>Reparto</h3>
+            </div>
+
+        </div>
+        <!--
+        <li>
+            <div class="d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-danger" data-dismiss="modal" onclick="stopWatch();">Concluir
+                    seguimiento</button>
+                <button type="button" onclick="getLocationInRealTime();" class="btn btn-primary">Comenzar
+                    seguimiento</button>
+            </div>
+        </li>
+        
+
+        <li>
+            <a href="/itinerarios" class="d-flex justify-content-center align-items-center"><i
+                    class="fas fa-route pr-3"></i>
+                Volver <i class="fas fa-route pl-3"></i></a>
+        </li>
+        -->
+        {{#each itinerarios}}
+        {{#if primero}}
+
+        <div class="inputGroup row" style="display:none">
+            <input class="checkBoxes" id="option{{idDireccion}}s" name="option{{idDireccion}}s"
+                data-latLon="{{toJSON this}}" type="checkbox"
+                onclick="checkItem(this.id);getLocationRouteHere(this.checked, this.parentNode.nextElementSibling.children[0].getAttribute('data-latLon'));closeNav();" />
+            <label for="option{{idDireccion}}s">
+                <h4><img style="cursor:alias;" class="img-fluid" alt="Responsive image"
+                        onclick="viewLocation(this.parentNode.parentNode.previousElementSibling.getAttribute('data-latLon'),this.parentNode.parentNode.previousElementSibling.parentNode.nextElementSibling.children[0].getAttribute('data-latLon'));"
+                        src="https://img.icons8.com/color//000000/google-maps.png">
+                    {{idDireccion}}s </h4>
+            </label>
+            <div class="row">
+                <div class="col-11 text-left">
+                    <div class="row">
+                        <h6 class="px-2 mx-2" style="color: white;"><i class="far fa-user"></i>: {{nombre}}</h6>
+                    </div>
+                    <div class="row">
+                        <h6 class="px-2 mx-2" style="color: white;"><i class="fas fa-map-marker-alt"></i>: {{calle}}
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{else}}
+        {{#if ultimo}}
+
+        <div class="inputGroup row">
+            <input class="checkBoxes" id="option{{idDireccion}}e" name="option{{idDireccion}}e"
+                data-latLon="{{toJSON this}}" type="checkbox"
+                onclick="checkItem(this.id);getLocationRouteHere(this.checked,this.getAttribute('data-latLon'));closeNav();" />
+            <label class="my-0 text-center" for="option{{idDireccion}}e">
+                <h4 class="align-items-center">
+                    <div class="text-center px-1">
+                        <span style="color: white;" id="title{{idDireccion}}e">{{calle}} {{numero}} </span>
+                    </div>
+                </h4>
+                <div class="text-center">
+                    <button style="border-radius:1rem;"
+                        onclick="getLocationRouteGoogle(document.getElementById('option{{idDireccion}}e').getAttribute('data-latLon'));"
+                        type="button" class="btn btn-primary col-5 mr-1"><span style="color:white;"> Indicaciones</span>
+                    </button>
+                </div>
+            </label>
+        </div>
+        {{else}}
+        <div class="inputGroup row clientes" id="inputGroup{{idDireccion}}">
+            <input class="checkBoxes" id="option{{idDireccion}}" name="option{{idDireccion}}"
+                data-latLon="{{toJSON this}}" type="checkbox" data-venta="[]" data-cliente="{{idClientes}}"
+                onclick="checkItem(this.id);getLocationRouteHere(this.checked,this.getAttribute('data-latLon'));closeNav();addClone(this.getAttribute('data-latLon'))" />
+            <label class="my-0 text-center" for="option{{idDireccion}}">
+                <h5 class="row align-items-center">
+                    <div class="col-1 text-left px-1">
+                        <svg id="svg{{idDireccion}}" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z"
+                                fill='#fff' fill-rule='nonzero' />
+                        </svg>
+                    </div>
+                    <div class="col-9 text-center px-1">
+                        <span style="color: white;" id="title{{idDireccion}}">{{splitData direccion}} </span>
+                    </div>
+                    <div class="col-2 px-1">
+                        <button type="button" data-toggle="modal" data-target="#ModalCenter"
+                            onclick="viewDirection();LlenarFormulario(document.getElementById('option{{idDireccion}}').getAttribute('data-latLon'))"
+                            class="btn btn-dark px-0 py-0">
+                            <img style="filter: invert(100%);" width="38" height="38" src="../img/Icons-16.png">
+                        </button>
+                    </div>
+                </h5>
+                <div class="text-center">
+                    <h6 class="px-2 mx-2" style="color: white;"> {{nombre}} | <span id="dataProv{{idDireccion}}">Cod.
+                            {{codigo}}</span>
+                    </h6>
+                </div>
+                <div class="text-center">
+                    <button style="border-radius:1rem;"
+                        onclick="getLocationRouteGoogle(document.getElementById('option{{idDireccion}}').getAttribute('data-latLon'));addClone(document.getElementById('option{{idDireccion}}').getAttribute('data-latLon'));"
+                        type="button" class="btn btn-primary mr-1"><span style="color:white;"> Indicaciones</span>
+                    </button>
+                    <button style="border-radius:1rem;" type="button"
+                        onclick="getLocationInRealTimeSale();giveBackClient(document.getElementById('option{{idDireccion}}').getAttribute('data-latLon'));addClone(document.getElementById('option{{idDireccion}}').getAttribute('data-latLon'));"
+                        class="btn btn-success text-center mx-1" data-toggle="modal"
+                        data-target="#ModalCenterSale"><span style="color:white">Venta</span></button>
+                    <button style="border-radius:1rem;" type="button"
+                        onclick="getLocationInRealTimeSale();giveBackClient_ns(document.getElementById('option{{idDireccion}}').getAttribute('data-latLon'))"
+                        class="btn btn-danger text-center ml-1" data-toggle="modal" data-target="#ModalNoSale"><span
+                            aria-hidden="true" class="close" style="color:white">&times;</span></button>
+                </div>
+                <small id="infoSale{{idDireccion}}" class="d-block text-center font-weight-bold">No se han realizado
+                    ventas
+                    aún</small>
+                <hr class="my-0" id="breakSale{{idDireccion}}"
+                    style="background-color:white; width:50% ; height: 1px; border: 0; ">
+
+            </label>
+            <hr class="my-0" id="breakSale{{idDireccion}}"
+                style="background-color:white; width:100% ; height: 10px; border: 0; ">
+
+        </div>
+
+        {{/if}}
+        {{/if}}
+        {{/each}}
+    </ul>
+
+</nav>
+<div id="clientRowInfo" class="row mx-auto mb-1 d-none">
+    <div class="card w-100">
+        <h6 class="card-header w-100">
+            <a data-toggle="collapse" href="#collapse-client " aria-expanded="false" aria-controls="collapse-client"
+                id="heading-client" class="d-block collapsed">
+                <span id="nombre_Cod">Cliente </span> <i class="fa fa-chevron-down float-right"></i>
+            </a>
+        </h6>
+        <div id="collapse-client" class="collapse" aria-labelledby="heading-client">
+            <div class="card-body inputGroup w-100 p-0" id="clientRowCardBody" style="background-color: inherit;">
+                <input class="checkBoxes" id="optionAll" type="checkbox"
+                    onclick="checkItem(this.id);getLocationRouteHere(this.checked,this.getAttribute('data-latLon'));" />
+                <label class="my-0 text-center" for="optionAll" style="background-color: inherit;">
+                    <h5 class="row align-items-center">
+                        <div class="col-1 text-left px-1">
+                            <svg id="svgAll" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.959 17l-4.5-4.319 1.395-1.435 3.08 2.937 7.021-7.183 1.422 1.409-8.418 8.591z"
+                                    fill='black' fill-rule='nonzero' />
+                            </svg>
+                        </div>
+                        <div class="col-9 text-center px-1">
+                            <span style="color: black;" id="titleAll"></span>
+                        </div>
+                        <div class="col-2 px-1">
+                            <button type="button" data-toggle="modal" data-target="#ModalCenter"
+                                onclick="viewDirection();LlenarFormulario(document.getElementById('optionAll').getAttribute('data-latLon'))"
+                                class="btn btn-dark px-0 py-0">
+                                <img style="filter: invert(100%);" width="38" height="38" src="../img/Icons-16.png">
+                            </button>
+                        </div>
+                    </h5>
+                    <div class="text-center">
+                        <button style="border-radius:1rem;"
+                            onclick="getLocationRouteGoogle(document.getElementById('optionAll').getAttribute('data-latLon'));"
+                            type="button" class="btn btn-primary text-center ml-1"><span style="color:white;">
+                                Indicaciones</span>
+                        </button>
+                        <button style="border-radius:1rem;" type="button"
+                            onclick="giveBackClient(document.getElementById('optionAll').getAttribute('data-latLon'));"
+                            class="btn btn-success text-center mx-1" data-toggle="modal"
+                            data-target="#ModalCenterSale"><span style="color:white">Venta</span></button>
+                        <button style="border-radius:1rem;" type="button"
+                            onclick="giveBackClient_ns(document.getElementById('optionAll').getAttribute('data-latLon'))"
+                            class="btn btn-danger text-center ml-1" data-toggle="modal" data-target="#ModalNoSale"><span
+                                aria-hidden="true" class="close" style="color:white">&times;</span></button>
+                    </div>
+                    <small id="infoSaleAll" class="d-block text-center font-weight-bold">No se han realizado
+                        ventas
+                        aún</small>
+                    <hr class="my-0" id="breakSaleAll"
+                        style="background-color:black; width:50% ; height: 3px; border: 0; ">
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Dirección</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="newDirection" action="/visual/modificar" method="post">
+                    <div class="form-label-group my-2">
+                        <div class="row text-center my-2">
+                            <button type="button" class="btn btn-primary text-center mx-auto"
+                                onclick="viewMap();">Visualizar
+                                Dirección</button>
+                        </div>
+                        <!--
+                        <div class="form-label-group">
+                            <div class="custom-control custom-checkbox">
+                                <input onchange="executeLatLon($('#auto-complete')[0])" type="checkbox"
+                                    class="custom-control-input pr-0" id="checkDirec" checked>
+                                <label class="custom-control-label mb-2 pl-0" for="checkDirec"><b> ¿Utilizar
+                                        información cercana? </b>
+                                </label>
+                            </div>
+                        </div>
+                        -->
+                        <div class="input-group">
+                            <input id="auto-complete" name="direccion" class="form-control" type="text"
+                                placeholder="Direccion" required>
+                            <!--onkeyup="return autoCompleteListener(this, false);"
+                                onclick="return autoCompleteListener(this, true);" required>-->
+                            <div class="input-group-append" style="z-index: 1;">
+                                <button type="button" class="btn btn-primary px-3" onclick="getLocation();"><i
+                                        class="fas fa-map-marker-alt"></i></button>
+                            </div>
+                        </div>
+                        <input name="direccionData" class="form-control" type="hidden">
+                        <input name="idDireccion" class="form-control" type="hidden">
+                        <input name="OldDireccionData" class="form-control" type="hidden">
+                    </div>
+                    <div class="form-group">
+                        <label for="observacion">Observaciones</label>
+                        <textarea class="form-control" name="observacion" id="observacion" rows="3"></textarea>
+                    </div>
+                    <div style="display: none;" class="form-group row">
+                        <label class="col-lg-3 col-form-label form-control-label">Latitud</label>
+                        <div class="col-lg-9">
+                            <input name="lat" class="form-control" type="text" placeholder="Latitud" required>
+                        </div>
+                    </div>
+                    <div style="display: none;" class="form-group row">
+                        <label class="col-lg-3 col-form-label form-control-label">Longitud</label>
+                        <div class="col-lg-9">
+                            <input name="lon" class="form-control" type="text" placeholder="Longitud" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                    onclick="clearOldSuggestions();moveMapToSantaFe(map);">Cerrar</button>
+                <button type="button" onclick="DoChangesDB();" class="btn btn-primary">Guardar cambios</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="ModalCenterSale" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="ModalLongTitle">Venta</h5>
+                <button type="button" onclick="resetSaleForm();stopWatchSale();" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <h6 class="modal-title mx-auto" id="ModalLongTitle"><small id="clientHelp"
+                    class="form-text text-muted text-center">No hay datos aún</small></h6>
+            <div class="modal-body">
+                <form class="form mb-0" id="saleForm" role="form" autocomplete="off" action="" method="POST">
+                    <input type="hidden" class="form-control selector" name="clienteModificar" id="clienteModificar">
+                    <div id="dateTimeSale" class="form-group row mx-auto">
+                        <div class="col text-center px-0 mr-1">
+                            <label for="date-input" class="mx-auto mb-0">Fecha</label>
+                            <input class="form-control form-control-sm" type="date" id="date-input">
+                        </div>
+                        <div class="col text-center px-0 ml-1">
+                            <label for="time-input" class="mx-auto mb-0">Hora</label>
+                            <input class="form-control form-control-sm" step="1" type="time" id="time-input">
+                        </div>
+                    </div>
+                    <div class="row mb-0" id="saleProduct">
+                        <div class="form-group col-8 pr-1">
+                            <div class="custom-control custom-checkbox">
+                                <input onclick="changeAutocomple();" type="checkbox" class="custom-control-input pr-0"
+                                    id="checkProd" checked>
+                                <label class="custom-control-label mb-0 pl-0" for="checkProd">Producto - <b
+                                        id="autocompletarProd"> Código </b> </label>
+                            </div>
+                            <div class="input-group">
+                                <input type="number" class="form-control selector"
+                                    aria-label="Seleccione un producto..." id="Prod" value="" name="Producto"
+                                    data-prod="{{toJSON Productos}}">
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="precioProd">$0</span>
+                                </div>
+                            </div>
+                            <small id="prodHelp" class="form-text text-muted text-center">No hay datos
+                                aún</small>
+                        </div>
+                        <div class="form-group col-3">
+                            <label for="Cantidad" class="mb-0">Cantidad</label>
+                            <div class="row">
+                                <div class="col-8 pl-1 pr-1">
+                                    <input name="Cantidad" type="number" id='Cant' class="form-control" min="0"
+                                        step="1">
+                                </div>
+                                <div class="col-2 pl-1">
+                                    <button name="addButton" id="addButton" type="button"
+                                        class="btn btn-outline-success "><svg width="1em" height="1em"
+                                            viewBox="0 0 16 16" class="bi bi-cart-plus-fill" fill="currentColor"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM4 14a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm7 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z" />
+                                        </svg></button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+                <div id="toolbar">
+                    <button id="remove" type="button" class="btn btn-danger" disabled>
+                        <i class="fa fa-trash"></i>
+                    </button>
+                    <button type="button" onclick="modifySale($table.bootstrapTable('getAllSelections')[0]);"
+                        data-toggle="modal" data-target="#modifyModal" id="edit" class="btn btn-primary" disabled>
+                        <i class="fas fa-user-edit"></i>
+                    </button>
+                </div>
+
+                <table class="table" id="table" data-toolbar="#toolbar" data-search="false" data-show-refresh="false"
+                    data-show-toggle="true" data-show-fullscreen="true" data-show-columns-toggle-all="true"
+                    data-detail-view="false" data-show-export="false" data-single-select="true"
+                    data-click-to-select="true" data-detail-formatter="detailFormatter" data-minimum-count-columns="2"
+                    data-show-pagination-switch="false" data-pagination="false" data-id-field="id"
+                    data-show-footer="true" data-response-handler="responseHandler">
+                </table>
+
+            </div>
+            <div class="modal-footer" id="saleFoot">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                    onclick="resetSaleForm();stopWatchSale();">Cerrar</button>
+                <button id="saveSale" type="button" class="btn btn-primary" onclick="doAjaxRequestAlta();">Guardar
+                    Venta</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="ModalNoSale" tabindex="-1" role="dialog" aria-labelledby="modifyModalTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modifyModalLongTitle">No venta</h5>
+                <button type="button" class="close" onclick="resetSaleFormNS();stopWatchSale();" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form id="NoSale">
+                <div class="modal-body">
+                    <h6 class="modal-title mx-auto" id="ModalLongTitle"><small id="clientHelp-ns"
+                            class="form-text text-muted text-center">No hay datos aún</small>
+                    </h6>
+                    <div class="form-group">
+                        <label for="causas-ns" class="mx-auto mb-0">Causa</label>
+                        <select class="form-control" id="causas-ns" required>
+                            <option disabled selected></option>
+                            <option value="Local Cerrado">Local cerrado</option>
+                            <option value="No demanda">No demanda</option>
+                            <option value="Otro problema">Otro problema</option>
+                        </select>
+                    </div>
+                    <div id="dateTimeSale" class="form-group row mx-auto">
+                        <div class="col text-center px-0 mr-1">
+                            <label for="date-input-ns" class="mx-auto mb-0">Fecha</label>
+                            <input class="form-control form-control-sm" type="date" id="date-input-ns" required>
+                        </div>
+                        <div class="col text-center px-0 ml-1">
+                            <label for="time-input-ns" class="mx-auto mb-0">Hora</label>
+                            <input class="form-control form-control-sm" step="1" type="time" id="time-input-ns"
+                                required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="obs-ns">Observacion</label>
+                        <textarea class="form-control" id="obs-ns" rows="3" required></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="reset" class="btn btn-secondary" onclick="resetSaleFormNS();stopWatchSale();" value="Reset"
+                        data-dismiss="modal">Cerrar</button>
+                    <button type="button" onclick='doAjaxRequestAltaNS();' class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal ALERT -->
+<div class="modal fade" data-backdrop="static" data-keyboard="false" id="modalAlert" tabindex="-1" role="dialog"
+    aria-labelledby="modalAlert" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Alerta</h5>
+                <button type="button" id="closeAlert" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="alert" id="alerta" role="alert"></div>
+                <div class="text-center" id="spinner" style="display: none;">
+                    <div class="spinner-border spinner-border-lg" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer" id="alertFoot">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" id="btn-confirm">Confirmar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modifyModal" tabindex="-1" role="dialog" aria-labelledby="modifyModalTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modifyModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form id="editSaleForm">
+                <div class="modal-body">
+                    <div class="row mb-1">
+                        <div class="form-group col-9 pr-1 pl-1">
+                            <div class="custom-control custom-checkbox">
+                                <input onclick="changeAutocompleEdit()" type="checkbox"
+                                    class="custom-control-input pr-0" id="editCheckProd" checked>
+                                <label class="custom-control-label mb-2 pl-0" for="editCheckProd">Producto - <b
+                                        id="editAutocompletarProd"> Nombre </b> </label>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" class="form-control selector" aria-label="Seleccione un producto..."
+                                    id="modProd" name="modProducto">
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="precioModProd">$0</span>
+                                </div>
+                            </div>
+                            <small id="modProdHelp" class="form-text text-muted text-center">No hay datos
+                                aún</small>
+                        </div>
+                        <div class="form-group col-3 pl-1 pr-1">
+                            <label for="Cantidad">Cantidad</label>
+                            <input name="Cantidad" type="number" id="modCant" class="form-control" min="0" step="1">
+                        </div>
+                    </div>
+                </div>
+                <input type="number" id='modID' hidden>
+                <input type="number" id='modIndex' hidden>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" onclick='updateRow()' data-dismiss="modal"
+                        class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="d-none" id="ventasData" data-ventas='{{toJSON ventas}}'></div>
+
+<div id="map"></div>
+<div id="panel"></div>
+<script type="text/javascript" src='/js/displayMaps.js'></script>
+<script type="text/javascript" src='/js/calculateRoute.js'></script>
+<script type="text/javascript" src='/js/LocationGPSRoutes.js'></script>
+<script type="text/javascript" src='/js/autocompleteWMap.js'></script>
+<script type="text/javascript" src="/js/boostrap-table.js"></script>
+<script type="text/javascript" src="/js/saleTable.js"></script>
+<script>
+    function viewDirection() {
+        closeNav();
+    }
+
+    function viewMap() {
+        $('#ModalCenter').modal('hide');
+        //moveMapToSantaFe(map);
+    }
+    function checkItem(id) {
+        //console.log("caca");
+        var inputs = document.getElementsByClassName("checkBoxes");
+        //console.log(inputs)
+        for (let i = 0; i < inputs.length; i++) {
+            if (inputs[i].id != id) {
+                inputs[i].checked = false;
+            } else {
+                inputs[i].checked = true;
+            }
+        }
+    }
+
+
+
+    function viewLocation(origen, destino) {
+        //console.log(origen);
+        //console.log(destino);
+        var dataOrigen = JSON.parse(origen);
+        var dataDestino = JSON.parse(destino);
+
+        //var page = 'https://www.google.com/maps/dir/' + dataOrigen.latitud + "," + dataOrigen.longitud + '/' + dataDestino.latitud + "," + dataDestino.longitud;
+        var page = 'https://www.google.com/maps/dir/' + dataOrigen.latitud + "," + dataOrigen.longitud + '/' + dataDestino.latitud + "," + dataDestino.longitud;
+        //console.log(page);
+
+        window.open(page, '_blank', 'width=800, height=600 , location=no');
+
+    }
+</script>
+<script>
+    window.addEventListener('resize', function () {
+        map.getViewPort().resize();
+    });
+    window.total = 0;
+    window.onload = changeAutocomple(), changeAutocompleEdit(), moveMapToSantaFe(map), llenarVentas();
+    window.idUsuarios = {{idUsuarios}};
+</script>

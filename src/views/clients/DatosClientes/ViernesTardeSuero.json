@@ -1,0 +1,146 @@
+[
+    {
+        "codigo": 3199,
+        "nombreCliente": "Leandro",
+        "direccion": "F Zuviria 5401",
+        "reparto": "ViernesTardeSuero",
+        "orden": "S01",
+        "latitud": -31.6168745,
+        "longitud": -60.7054753
+    },
+    {
+        "codigo": 2164,
+        "nombreCliente": "carlos",
+        "direccion": "milenio polonia 3198",
+        "reparto": "ViernesTardeSuero",
+        "orden": "S02",
+        "latitud": -31.6164307,
+        "longitud": -60.7061247
+    },
+    {
+        "codigo": 3154,
+        "nombreCliente": "Laura",
+        "direccion": "Fdo Zuviria 5716",
+        "reparto": "ViernesTardeSuero",
+        "orden": "S03",
+        "latitud": -31.6139755,
+        "longitud": -60.7050691
+    },
+    {
+        "codigo": 3116,
+        "nombreCliente": "Jorge",
+        "direccion": "Padilla 2669",
+        "reparto": "ViernesTardeSuero",
+        "orden": "S04",
+        "latitud": -31.6217321,
+        "longitud": -60.7002135
+    },
+    {
+        "codigo": 1649,
+        "nombreCliente": "Peprella",
+        "direccion": "pj.ingenieros 5420",
+        "reparto": "ViernesTardeSuero",
+        "orden": "S05",
+        "latitud": -31.61703,
+        "longitud": -60.7026948
+    },
+    {
+        "codigo": 1648,
+        "nombreCliente": "Añate",
+        "direccion": "pj.ingenieros 5377",
+        "reparto": "ViernesTardeSuero",
+        "orden": "S06",
+        "latitud": -31.6173903,
+        "longitud": -60.7027977
+    },
+    {
+        "codigo": 2399,
+        "nombreCliente": "la chiquita",
+        "direccion": "san jeronimo 6046",
+        "reparto": "ViernesTardeSuero",
+        "orden": "S07",
+        "latitud": -31.6120741,
+        "longitud": -60.6979471
+    },
+    {
+        "codigo": 2980,
+        "nombreCliente": "Betina",
+        "direccion": "Castelli 2370",
+        "reparto": "ViernesTardeSuero",
+        "orden": "S08",
+        "latitud": -31.6070103,
+        "longitud": -60.6925354
+    },
+    {
+        "codigo": 1247,
+        "nombreCliente": "Hector",
+        "direccion": "Mitre 6798",
+        "reparto": "ViernesTardeSuero",
+        "orden": "S09",
+        "latitud": -31.6074404,
+        "longitud": -60.6821557
+    },
+    {
+        "codigo": 2021,
+        "nombreCliente": "Carpe",
+        "direccion": "hernandarias 1568",
+        "reparto": "ViernesTardeSuero",
+        "orden": "S10",
+        "latitud": -31.6097129,
+        "longitud": -60.6835234
+    },
+    {
+        "codigo": 1248,
+        "nombreCliente": "Miguel",
+        "direccion": "Necochea 6600",
+        "reparto": "ViernesTardeSuero",
+        "orden": "S11",
+        "latitud": -31.609228,
+        "longitud": -60.686092
+    },
+    {
+        "codigo": 1249,
+        "nombreCliente": "Jorge",
+        "direccion": "Hernandarias 2055",
+        "reparto": "ViernesTardeSuero",
+        "orden": "S12",
+        "latitud": -31.6086679,
+        "longitud": -60.6887793
+    },
+    {
+        "codigo": 1250,
+        "nombreCliente": "Arce",
+        "direccion": "Alvear 6500",
+        "reparto": "ViernesTardeSuero",
+        "orden": "S13",
+        "latitud": -31.6095331,
+        "longitud": -60.6884729
+    },
+    {
+        "codigo": 2987,
+        "nombreCliente": "Romina",
+        "direccion": "Alvear y J P Lopez",
+        "reparto": "ViernesTardeSuero",
+        "orden": "S14",
+        "latitud": -31.609686,
+        "longitud": -60.688467
+    },
+    {
+        "codigo": 3009,
+        "nombreCliente": "Mariana",
+        "direccion": "Aristobulo 5383",
+        "reparto": "ViernesTardeSuero",
+        "orden": "S15",
+        "latitud": -31.618316,
+        "longitud": -60.698203
+    },
+    {
+        "codigo": 3117,
+        "nombreCliente": "Marcelo",
+        "direccion": "Goyena 3236",
+        "reparto": "ViernesTardeSuero",
+        "orden": "S16",
+        "latitud": -31.6157593,
+        "longitud": -60.7058816
+    }
+]

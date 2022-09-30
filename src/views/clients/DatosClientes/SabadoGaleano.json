@@ -1,0 +1,312 @@
+[
+    {
+        "codigo": 2475,
+        "nombreCliente": "taborda",
+        "direccion": "alfonsina e.6579",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K01",
+        "latitud": -31.5735658,
+        "longitud": -60.7400866
+    },
+    {
+        "codigo": 2495,
+        "nombreCliente": "Zeller",
+        "direccion": "Figueroa 9287",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K02",
+        "latitud": -31.5738271,
+        "longitud": -60.7369015
+    },
+    {
+        "codigo": 2476,
+        "nombreCliente": "Montenegro",
+        "direccion": "la pampa 6413",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K03",
+        "latitud": -31.5735647,
+        "longitud": -60.7371865
+    },
+    {
+        "codigo": 2477,
+        "nombreCliente": "Echeverria",
+        "direccion": "la pampa 6535",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K04",
+        "latitud": -31.5728744,
+        "longitud": -60.7400292
+    },
+    {
+        "codigo": 2478,
+        "nombreCliente": "Loza",
+        "direccion": "12 de octubre 9326",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K05",
+        "latitud": -31.572619,
+        "longitud": -60.740382
+    },
+    {
+        "codigo": 2479,
+        "nombreCliente": "Sotelo",
+        "direccion": "12 de octubre 9325",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K06",
+        "latitud": -31.5726389,
+        "longitud": -60.7403435
+    },
+    {
+        "codigo": 2483,
+        "nombreCliente": "Altamirano",
+        "direccion": "Reinares 9301",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K07",
+        "latitud": -31.5724094,
+        "longitud": -60.7387004
+    },
+    {
+        "codigo": 2496,
+        "nombreCliente": "Fernandez",
+        "direccion": "La pampa 6578",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K08",
+        "latitud": -31.572902,
+        "longitud": -60.739885
+    },
+    {
+        "codigo": 2484,
+        "nombreCliente": "Garcia",
+        "direccion": "Formosa 6565",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K09",
+        "latitud": -31.5705867,
+        "longitud": -60.7391069
+    },
+    {
+        "codigo": 2546,
+        "nombreCliente": "Figueroa",
+        "direccion": "formosa 6453",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K10",
+        "latitud": -31.570981,
+        "longitud": -60.7369815
+    },
+    {
+        "codigo": 2502,
+        "nombreCliente": "Serra Norma",
+        "direccion": "Diagonal C 9435",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K11",
+        "latitud": -31.571463,
+        "longitud": -60.7339466
+    },
+    {
+        "codigo": 2486,
+        "nombreCliente": "Araujo",
+        "direccion": "Chaco 6412",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K12",
+        "latitud": -31.5691133,
+        "longitud": -60.7357316
+    },
+    {
+        "codigo": 2813,
+        "nombreCliente": "franco",
+        "direccion": "chaco 6544",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K13",
+        "latitud": -31.5687965,
+        "longitud": -60.7383357
+    },
+    {
+        "codigo": 2487,
+        "nombreCliente": "Corea rocio",
+        "direccion": "Reinares 9632",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K14",
+        "latitud": -31.5677048,
+        "longitud": -60.7373981
+    },
+    {
+        "codigo": 2499,
+        "nombreCliente": "Dominguez",
+        "direccion": "c malvinas 6565",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K15",
+        "latitud": -31.5678285,
+        "longitud": -60.7382583
+    },
+    {
+        "codigo": 3083,
+        "nombreCliente": "Ponce",
+        "direccion": "Psje Arg 10130",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K16",
+        "latitud": -31.5630088,
+        "longitud": -60.7373035
+    },
+    {
+        "codigo": 3082,
+        "nombreCliente": "Hotero",
+        "direccion": "A Jeneiro 10344",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K17",
+        "latitud": -31.5616593,
+        "longitud": -60.7354142
+    },
+    {
+        "codigo": 3080,
+        "nombreCliente": "Fernandez",
+        "direccion": "Psje Publico 10251",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K18",
+        "latitud": -31.5629542,
+        "longitud": -60.7343495
+    },
+    {
+        "codigo": 2729,
+        "nombreCliente": "Miranda",
+        "direccion": "reuteman c 152",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K20",
+        "latitud": -31.5639388,
+        "longitud": -60.7428565
+    },
+    {
+        "codigo": 2506,
+        "nombreCliente": "Sosa Maria",
+        "direccion": "Zarsotti 6923",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K22",
+        "latitud": -31.5615107,
+        "longitud": -60.7425984
+    },
+    {
+        "codigo": 2516,
+        "nombreCliente": "Gomez",
+        "direccion": "P Espinoza 6950",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K23",
+        "latitud": -31.5604246,
+        "longitud": -60.7423609
+    },
+    {
+        "codigo": 2522,
+        "nombreCliente": "Lopez Carla",
+        "direccion": "cortada100ymocovi",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K24",
+        "latitud": -31.5613581,
+        "longitud": -60.742199
+    },
+    {
+        "codigo": 2537,
+        "nombreCliente": "Vega carina",
+        "direccion": "mocovi y doldan",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K25",
+        "latitud": -31.5624603,
+        "longitud": -60.7419966
+    },
+    {
+        "codigo": 2545,
+        "nombreCliente": "Anselmino",
+        "direccion": "10 andino casa 77",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K26",
+        "latitud": -31.5640231,
+        "longitud": -60.7419069
+    },
+    {
+        "codigo": 2523,
+        "nombreCliente": "Betiana P",
+        "direccion": "Valdivieso 6800",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K27",
+        "latitud": -31.5629049,
+        "longitud": -60.7425619
+    },
+    {
+        "codigo": 3086,
+        "nombreCliente": "Adriana",
+        "direccion": "Freire A Casa 2",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K28",
+        "latitud": -31.5646631,
+        "longitud": -60.7492277
+    },
+    {
+        "codigo": 3087,
+        "nombreCliente": "Lidia",
+        "direccion": "P d leon casa 171",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K29",
+        "latitud": -31.5656807,
+        "longitud": -60.7467852
+    },
+    {
+        "codigo": 2872,
+        "nombreCliente": "Quiroga",
+        "direccion": "Santa Fe 9700",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K30",
+        "latitud": -31.5662016,
+        "longitud": -60.7407636
+    },
+    {
+        "codigo": 3069,
+        "nombreCliente": "Soria",
+        "direccion": "Formosa 6726",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K31",
+        "latitud": -31.5699512,
+        "longitud": -60.7422498
+    },
+    {
+        "codigo": 3084,
+        "nombreCliente": "Maria",
+        "direccion": "Larechea 9374",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K32",
+        "latitud": -31.5718034,
+        "longitud": -60.7453477
+    },
+    {
+        "codigo": 3085,
+        "nombreCliente": "Lidia",
+        "direccion": "A Storni 6858",
+        "reparto": "SabadoGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "K33",
+        "latitud": -31.5724791,
+        "longitud": -60.7446407
+    }
+]

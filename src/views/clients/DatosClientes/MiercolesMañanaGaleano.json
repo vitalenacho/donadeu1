@@ -1,0 +1,335 @@
+[
+    {
+        "codigo": 1295,
+        "nombreCliente": "Maidana",
+        "direccion": "jj.paso y r",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E01",
+        "latitud": -31.692455,
+        "longitud": -60.7829625
+    },
+    {
+        "codigo": 3263,
+        "nombreCliente": "Ayala",
+        "direccion": "calle 27 entre 6 y 8",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E02",
+        "latitud": -31.6967926,
+        "longitud": -60.7841454
+    },
+    {
+        "codigo": 1564,
+        "nombreCliente": "Dias",
+        "direccion": "Castelli 4770",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E03",
+        "latitud": -31.6937963,
+        "longitud": -60.7706268
+    },
+    {
+        "codigo": 1397,
+        "nombreCliente": "Ferreyra",
+        "direccion": "chaperrouge 1935",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E04",
+        "latitud": -31.6938263,
+        "longitud": -60.7661054
+    },
+    {
+        "codigo": 2948,
+        "nombreCliente": "Frutos",
+        "direccion": "Mitre 4894",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E05",
+        "latitud": -31.698229,
+        "longitud": -60.7590464
+    },
+    {
+        "codigo": 2984,
+        "nombreCliente": "Capelini",
+        "direccion": "Cervera 4844",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E06",
+        "latitud": -31.6973883,
+        "longitud": -60.7578256
+    },
+    {
+        "codigo": 1449,
+        "nombreCliente": "Alamada",
+        "direccion": "chaperrouge 818",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E07",
+        "latitud": -31.6960081,
+        "longitud": -60.7542663
+    },
+    {
+        "codigo": 1450,
+        "nombreCliente": "Aguirre",
+        "direccion": "roberano y pj guido",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E08",
+        "latitud": -31.6976601,
+        "longitud": -60.7523252
+    },
+    {
+        "codigo": 1452,
+        "nombreCliente": "Morales",
+        "direccion": "candiotti y diag.",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E09",
+        "latitud": -31.6995692,
+        "longitud": -60.7610821
+    },
+    {
+        "codigo": 3106,
+        "nombreCliente": "Claudia",
+        "direccion": "Diagonal12 4632",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E10",
+        "latitud": -31.701246,
+        "longitud": -60.7621884
+    },
+    {
+        "codigo": 2934,
+        "nombreCliente": "Ponce",
+        "direccion": "Calle 63 entre 8y10",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E11",
+        "latitud": -31.7009153,
+        "longitud": -60.7672383
+    },
+    {
+        "codigo": 3043,
+        "nombreCliente": "Fernandez",
+        "direccion": "Calle 59 2146",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E12",
+        "latitud": -31.7007474,
+        "longitud": -60.7692425
+    },
+    {
+        "codigo": 1487,
+        "nombreCliente": "Cardozo",
+        "direccion": "calle 8 entre 61 y 63",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E13",
+        "latitud": -31.700396,
+        "longitud": -60.7677669
+    },
+    {
+        "codigo": 3030,
+        "nombreCliente": "Zurchmitten",
+        "direccion": "calle 8 3238",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E14",
+        "latitud": -31.6993213,
+        "longitud": -60.7750403
+    },
+    {
+        "codigo": 2377,
+        "nombreCliente": "ricki",
+        "direccion": "calle 6 entre 69 y 71",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E15",
+        "latitud": -31.6992926,
+        "longitud": -60.7636387
+    },
+    {
+        "codigo": 1562,
+        "nombreCliente": "Castillo",
+        "direccion": "calle 6 ent 71 y 73",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E16",
+        "latitud": -31.6992522,
+        "longitud": -60.762705
+    },
+    {
+        "codigo": 2938,
+        "nombreCliente": "Gonzalez",
+        "direccion": "Iriondo 1815",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E17",
+        "latitud": -31.6642984,
+        "longitud": -60.7578763
+    },
+    {
+        "codigo": 2985,
+        "nombreCliente": "Muñoz",
+        "direccion": "Iriondo 1807",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E18",
+        "latitud": -31.6641387,
+        "longitud": -60.7578186
+    },
+    {
+        "codigo": 1500,
+        "nombreCliente": "Leguizamon",
+        "direccion": "belgrano 1412",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E19",
+        "latitud": -31.6602335,
+        "longitud": -60.759695
+    },
+    {
+        "codigo": 1380,
+        "nombreCliente": "herzog",
+        "direccion": "sarmiento 1893",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E20",
+        "latitud": -31.6619519,
+        "longitud": -60.7598084
+    },
+    {
+        "codigo": 3131,
+        "nombreCliente": "Carina",
+        "direccion": "Belgrano 1002",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E21",
+        "latitud": -31.6570769,
+        "longitud": -60.7590471
+    },
+    {
+        "codigo": 1503,
+        "nombreCliente": "Sosa",
+        "direccion": "esperanza 1810",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E22",
+        "latitud": -31.6611138,
+        "longitud": -60.7589589
+    },
+    {
+        "codigo": 1499,
+        "nombreCliente": "Casadei",
+        "direccion": "centenario 1447",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E23",
+        "latitud": -31.6604447,
+        "longitud": -60.760739
+    },
+    {
+        "codigo": 1378,
+        "nombreCliente": "Almacen",
+        "direccion": "almaraz 1690",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E24",
+        "latitud": -31.658944,
+        "longitud": -60.7845901
+    },
+    {
+        "codigo": 2955,
+        "nombreCliente": "Alvarez",
+        "direccion": "Almaraz 1735",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E25",
+        "latitud": -31.6602574,
+        "longitud": -60.7848377
+    },
+    {
+        "codigo": 2651,
+        "nombreCliente": "Denis",
+        "direccion": "R, Saenz Peña 4470",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E26",
+        "latitud": -31.6559872,
+        "longitud": -60.7901783
+    },
+    {
+        "codigo": 1492,
+        "nombreCliente": "Stirmemann",
+        "direccion": "tucuman 3575",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E28",
+        "latitud": -31.6563772,
+        "longitud": -60.7790401
+    },
+    {
+        "codigo": 1403,
+        "nombreCliente": "Frutos",
+        "direccion": "jj paso 1396",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E29",
+        "latitud": -31.6574234,
+        "longitud": -60.7740502
+    },
+    {
+        "codigo": 2870,
+        "nombreCliente": "Serra",
+        "direccion": "V. Sarfiel 1245",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E30",
+        "latitud": -31.6562845,
+        "longitud": -60.7906248
+    },
+    {
+        "codigo": 1346,
+        "nombreCliente": "fabiana",
+        "direccion": "almrante brown 2992",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E31",
+        "latitud": -31.6651618,
+        "longitud": -60.7756786
+    },
+    {
+        "codigo": 2925,
+        "nombreCliente": "Feodorczuk",
+        "direccion": "San Martin 2909",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E32",
+        "latitud": -31.6630076,
+        "longitud": -60.7713803
+    },
+    {
+        "codigo": 2618,
+        "nombreCliente": "Valle",
+        "direccion": "4 De enero 2068",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E33",
+        "latitud": -31.6562845,
+        "longitud": -60.7906248
+    },
+    {
+        "codigo": 3051,
+        "nombreCliente": "Ruiz",
+        "direccion": "1de Mayo 2082",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E34",
+        "latitud": -31.6643377,
+        "longitud": -60.7765751
+    },
+    {
+        "codigo": 1805,
+        "nombreCliente": "Bonarvia",
+        "direccion": "colon 2905",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E35",
+        "latitud": -31.6676413,
+        "longitud": -60.7722894
+    },
+    {
+        "codigo": 1411,
+        "nombreCliente": "bustos",
+        "direccion": "colon 2950",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E36",
+        "latitud": -31.6673565,
+        "longitud": -60.7731077
+    },
+    {
+        "codigo": 1361,
+        "nombreCliente": "Polleria",
+        "direccion": "bs as 2534",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E37",
+        "latitud": -31.6698165,
+        "longitud": -60.7702338
+    },
+    {
+        "codigo": 1327,
+        "nombreCliente": "Perren",
+        "direccion": "san martin 2665",
+        "reparto": "MiercolesMañanaGaleano",
+        "orden": "E38",
+        "latitud": -31.6634154,
+        "longitud": -60.7687815
+    }
+]

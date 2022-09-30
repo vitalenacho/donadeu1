@@ -1,0 +1,127 @@
+{{#unless visual}}
+<nav id="sidebar">
+  <div class="row">
+    <div id="dismiss" class="py-2 px-2 my-auto mx-auto">
+      <i class="fas fa-arrow-left"></i>
+    </div>
+
+    <div class="sidebar-header py-1 my-auto mx-auto text-center">
+      <h3>DONADEU</h3>
+    </div>
+  </div>
+  <ul class="list-unstyled components">
+    <!--<p>Q(o.o)-O Q(O.o)O</p>-->
+    <li>
+      <a href="/dashboard" class="text-left"><img src="img/Icons-10.png" class="iconImg">Menu principal</a>
+    </li>
+    <li>
+      <a href="/clientes" class="text-left"><img src="img/Icons-11.png" class="iconImg">Clientes</a>
+    </li>
+    <li>
+      <a href="/itinerarios" class="text-left"><img src="img/Icons-12.png" class="iconImg">Repartos</a>
+    </li>
+    <li>
+      <a href="/ventas" class="text-left"><img src="img/Icons-21.png" class="iconImg">Ventas</a>
+    </li>
+    <li>
+      <a href="#" class="text-left"><img src="img/Icons-13.png" class="iconImg">Instructivo</a>
+    </li>
+    <li>
+      <a href="/logout" class="text-left"><img src="img/Icons-14.png" class="iconImg">Salir</a>
+    </li>
+  </ul>
+</nav>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("#sidebar").mCustomScrollbar({
+      theme: "minimal"
+    });
+
+    $('#dismiss, .overlay').on('click', function () {
+      $('#sidebar').removeClass('active');
+      $('.overlay').removeClass('active');
+    });
+
+    $('#sidebarCollapse').on('click', function () {
+      $('#sidebar').addClass('active');
+      $('.overlay').addClass('active');
+      $('.collapse.in').toggleClass('in');
+      $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+    });
+  });
+</script>
+{{else}}
+
+<script>
+  function openNav() {
+    document.getElementById("sidebarVisual").style.width = "90vw";
+  }
+
+  function closeNav() {
+    document.getElementById("sidebarVisual").style.width = "0";
+    $('#sidebar').removeClass('active');
+    $('.overlay').removeClass('active');
+  }
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("#sidebarVisual").mCustomScrollbar({
+      theme: "minimal"
+    });
+
+    $('#dismiss, .overlay').on('click', function () {
+      closeNav();
+    });
+
+    $('#sidebarCollapse').on('click', function () {
+      $('#sidebarVisual').addClass('active');
+      $('.overlay').addClass('active');
+      $('.collapse.in').toggleClass('in');
+      $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+    });
+  });
+</script>
+{{/unless}}
+
+
+<!--
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+  {{#if dashboard}}
+  <h2 class="d-flex justify-content-center align-items-center"> ¡Bienvenido {{user.Nombre}}!</h2>
+  <p class="d-flex justify-content-center align-items-center">Este es el Panel de Control del día {{day}}</p>
+  {{else if clients}}
+  <h2 class="d-flex justify-content-center align-items-center"> ¡Ventana Clientes!</h2>
+  <p class="d-flex justify-content-center align-items-center">Aquí pueden Agregarse, Eliminarse y Modificar Clientes</p>
+  {{/if}}
+</div>
+{{#unless visual}}
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="/dashboard" class="d-flex justify-content-center align-items-center"><i class="fas fa-tachometer-alt pr-3"></i> Tablero
+    <i class="fas fa-tachometer-alt pl-3"></i></a>
+  <a href="/clientes" class="d-flex justify-content-center align-items-center"><i class="far fa-address-book pr-3"></i> Clientes
+    <i class="far fa-address-book pl-3"></i></a>
+  <a href="/itinerarios" class="d-flex justify-content-center align-items-center"><i class="fas fa-route pr-3"></i> Itinerario <i
+      class="fas fa-route pl-3"></i></a>
+  <a href="#" class="d-flex justify-content-center align-items-center"><i class="fas fa-school pr-3"></i> Instructivo <i
+      class="fas fa-school pl-3"></i></a>
+  <a href="/logout" class="d-flex justify-content-center align-items-center"><i class="fas fa-sign-out-alt pr-1"></i> Salir <i
+      class="fas fa-sign-out-alt pl-1"></i></a>
+</div>
+{{/unless}}
+
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "70%";
+    document.getElementById("main").style.marginLeft = "70%";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+</script>
+-->

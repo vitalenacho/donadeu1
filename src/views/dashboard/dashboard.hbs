@@ -1,0 +1,82 @@
+<div class="container py-1">
+    <div class="mx-auto w-auto">
+        <div class="card">
+            <div class="card-body">
+                <button onclick="window.location.href='/clientes'" type="button"
+                    class="btn btn-secondary btn-lg btn-block py-0 mx-auto col-sm-10 text-left"><img class="iconImg"
+                        src="img/Icons-11.png"> Clientes </button>
+                <button onclick="window.location.href='/itinerarios'" type="button"
+                    class="btn btn-secondary btn-lg btn-block py-0 mx-auto col-sm-10 text-left"><img class="iconImg"
+                        src="img/Icons-12.png"> Repartos </button>
+                <button onclick="window.location.href='/ventas'" type="button"
+                    class="btn btn-secondary btn-lg btn-block py-0 mx-auto col-sm-10 text-left"><img class="iconImg"
+                        src="img/Icons-21.png"> Ventas </button>
+                <button onclick="window.location.href='/productos/modificar'" type="button"
+                    class="btn btn-secondary btn-lg btn-block py-0 mx-auto col-sm-10 text-left"><img class="iconImg"
+                        src="img/Icons-13.png"> Modificar Productos </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function ajaxAltaProd() {
+        $.ajax({
+            method: "POST",
+            url: "/productos/alta",
+        })
+            .done(function () {
+                ajaxModProd();
+            })
+            .fail(function (jqXHR, textStatus, errorThrown) {
+                alert(
+                    "Ha ocurrido un error y no se ha podido dar de alta los productos nuevos"
+                );
+                if (jqXHR.status === 0) {
+                    alert("No hay conexion a internet, verifique su conexion");
+                } else if (jqXHR.status == 404) {
+                    alert("La funcion solicitada no existe en el servidor");
+                } else if (jqXHR.status == 500) {
+                    alert("Ha ocurrido un problema interno en el servidor");
+                } else if (textStatus === "parsererror") {
+                    alert("La informacion solicitada falló");
+                } else if (textStatus === "timeout") {
+                    alert("Se ha excedido el tiempo maximo de espera");
+                } else if (textStatus === "abort") {
+                    alert("Se ha abortado la peticion al servidor");
+                } else {
+                    alert("Error desconocido: " + jqXHR.responseText);
+                }
+            })
+    };
+    function ajaxModProd() {
+        $.ajax({
+            method: "POST",
+            url: "/productos/modificar",
+        })
+            .done(function () {
+                alert("Los productos fueron cargados con exitos");
+            })
+            .fail(function (jqXHR, textStatus, errorThrown) {
+                alert(
+                    "Ha ocurrido un error y no se ha podido actualizar los productos"
+                );
+                if (jqXHR.status === 0) {
+                    alert("No hay conexion a internet, verifique su conexion");
+                } else if (jqXHR.status == 404) {
+                    alert("La funcion solicitada no existe en el servidor");
+                } else if (jqXHR.status == 500) {
+                    alert("Ha ocurrido un problema interno en el servidor");
+                } else if (textStatus === "parsererror") {
+                    alert("La informacion solicitada falló");
+                } else if (textStatus === "timeout") {
+                    alert("Se ha excedido el tiempo maximo de espera");
+                } else if (textStatus === "abort") {
+                    alert("Se ha abortado la peticion al servidor");
+                } else {
+                    alert("Error desconocido: " + jqXHR.responseText);
+                }
+            })
+    }
+
+</script>

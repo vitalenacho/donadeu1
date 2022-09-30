@@ -1,0 +1,256 @@
+{
+    "clientes": [
+        {
+            "codigo": 1280,
+            "nombreCliente": "Acevedo",
+            "direccion": "madeyon 6671",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D01",
+            "latitud": -31.6376743,
+            "longitud": -60.6230439
+        },
+        {
+            "codigo": 1355,
+            "nombreCliente": "Serrano",
+            "direccion": "ruta 1 km0,5",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D02",
+            "latitud": -31.6371856,
+            "longitud": -60.6261632
+        },
+        {
+            "codigo": 1357,
+            "nombreCliente": "Carrizo",
+            "direccion": "san f 5765",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D03",
+            "latitud": -31.6335026,
+            "longitud": -60.6128716
+        },
+        {
+            "codigo": 3029,
+            "nombreCliente": "Flores",
+            "direccion": "Ruta 1 km2200",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D04",
+            "latitud": -31.6290093,
+            "longitud": -60.6093773
+        },
+        {
+            "codigo": 1292,
+            "nombreCliente": "Gulseran",
+            "direccion": "Mario Mendoza",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D05",
+            "latitud": -31.6260324,
+            "longitud": -60.604309
+        },
+        {
+            "codigo": 1278,
+            "nombreCliente": "Garrir",
+            "direccion": "nñandubay 5764",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D06",
+            "latitud": -31.6213717,
+            "longitud": -60.6053333
+        },
+        {
+            "codigo": 1527,
+            "nombreCliente": "Ramos",
+            "direccion": "via y las ensimas",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D07",
+            "latitud": -31.6280241,
+            "longitud": -60.5997571
+        },
+        {
+            "codigo": 3145,
+            "nombreCliente": "Desiree",
+            "direccion": "Ruta 1 km 2,8",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D08",
+            "latitud": -31.6258667,
+            "longitud": -60.6036697
+        },
+        {
+            "codigo": 1424,
+            "nombreCliente": "Valero",
+            "direccion": "ruta 1 km 3800",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D09",
+            "latitud": -31.6214882,
+            "longitud": -60.5954167
+        },
+        {
+            "codigo": 1750,
+            "nombreCliente": "Laborie",
+            "direccion": "ruta 1 km4,5",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D10",
+            "latitud": -31.6182025,
+            "longitud": -60.5897384
+        },
+        {
+            "codigo": 1359,
+            "nombreCliente": "Vidal",
+            "direccion": "ruta 1km 5,5",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D11",
+            "latitud": -31.6118607,
+            "longitud": -60.5829528
+        },
+        {
+            "codigo": 1441,
+            "nombreCliente": "Vega",
+            "direccion": "ines al.y brigad l",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D12",
+            "latitud": -31.6097435,
+            "longitud": -60.5716912
+        },
+        {
+            "codigo": 1532,
+            "nombreCliente": "Nieva",
+            "direccion": "airton martini s/n",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D13",
+            "latitud": -31.6091362,
+            "longitud": -60.570104
+        },
+        {
+            "codigo": 1810,
+            "nombreCliente": "marel",
+            "direccion": "vicente zarra s/n",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D14",
+            "latitud": -31.6094749,
+            "longitud": -60.5656046
+        },
+        {
+            "codigo": 1443,
+            "nombreCliente": "Leguizamon",
+            "direccion": "luis santos 1546",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D15",
+            "latitud": -31.6109567,
+            "longitud": -60.5654667
+        },
+        {
+            "codigo": 1534,
+            "nombreCliente": "Galeano",
+            "direccion": "pj yerbe s/n",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D16",
+            "latitud": -31.610906,
+            "longitud": -60.5654622
+        },
+        {
+            "codigo": 2017,
+            "nombreCliente": "Ayala",
+            "direccion": "yerbe s/n",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D17",
+            "latitud": -31.6107282,
+            "longitud": -60.5645921
+        },
+        {
+            "codigo": 1535,
+            "nombreCliente": "Gomez",
+            "direccion": "independ. 2358",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D18",
+            "latitud": -31.60751,
+            "longitud": -60.5661433
+        },
+        {
+            "codigo": 1445,
+            "nombreCliente": "Martinez",
+            "direccion": "luis santos 1546",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D19",
+            "latitud": -31.6040669,
+            "longitud": -60.5680028
+        },
+        {
+            "codigo": 1444,
+            "nombreCliente": "Vega",
+            "direccion": "luis santos 1460",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D20",
+            "latitud": -31.6038647,
+            "longitud": -60.5689122
+        },
+        {
+            "codigo": 1442,
+            "nombreCliente": "Perez",
+            "direccion": "segui y lambert.",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D21",
+            "latitud": -31.6071535,
+            "longitud": -60.5703481
+        },
+        {
+            "codigo": 1536,
+            "nombreCliente": "Barchiesi",
+            "direccion": "constituy. 2884",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D22",
+            "latitud": -31.601873,
+            "longitud": -60.5699684
+        },
+        {
+            "codigo": 1609,
+            "nombreCliente": "Gabas",
+            "direccion": "busamiche 2260",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D23",
+            "latitud": -31.6072583,
+            "longitud": -60.5724749
+        },
+        {
+            "codigo": 1318,
+            "nombreCliente": "Blagiero",
+            "direccion": "callejon pintos",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D24",
+            "latitud": -31.5850578,
+            "longitud": -60.5563277
+        },
+        {
+            "codigo": 1360,
+            "nombreCliente": "Jondon",
+            "direccion": "ruta 1 km 10",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D25",
+            "latitud": -31.579675,
+            "longitud": -60.5510017
+        },
+        {
+            "codigo": 1446,
+            "nombreCliente": "Abrham",
+            "direccion": "ruta 1 km 6,5",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D26",
+            "latitud": -31.6055623,
+            "longitud": -60.5764818
+        },
+        {
+            "codigo": 1610,
+            "nombreCliente": "Robol",
+            "direccion": "ruta 1 km 6",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D27",
+            "latitud": -31.6056733,
+            "longitud": -60.5771817
+        },
+        {
+            "codigo": 3264,
+            "nombreCliente": "Caraffa",
+            "direccion": "San Martin 2600",
+            "reparto": "MartesTardeGaleano",
+            "orden": "D28",
+            "latitud": -31.6023915,
+            "longitud": -60.5816861
+        }
+    ]
+}

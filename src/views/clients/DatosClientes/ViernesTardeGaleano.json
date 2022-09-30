@@ -1,0 +1,282 @@
+[
+    {
+        "codigo": 2788,
+        "nombreCliente": "Dotschke",
+        "direccion": "mendoza 5946",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine sur",
+        "orden": "J01",
+        "latitud": -31.6259724,
+        "longitud": -60.6048178
+    },
+    {
+        "codigo": 1387,
+        "nombreCliente": "Cazas",
+        "direccion": "mepenes 6493",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J03",
+        "latitud": -31.634234,
+        "longitud": -60.6003285
+    },
+    {
+        "codigo": 2116,
+        "nombreCliente": "Diaz",
+        "direccion": "Meprene s/n",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J04",
+        "latitud": -31.6323994,
+        "longitud": -60.6097848
+    },
+    {
+        "codigo": 1388,
+        "nombreCliente": "Fareli",
+        "direccion": "timbues y madre selva",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J05",
+        "latitud": -31.6330229,
+        "longitud": -60.602916
+    },
+    {
+        "codigo": 1305,
+        "nombreCliente": "Diaz",
+        "direccion": "eucaliptus 6314",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J06",
+        "latitud": -31.6275899,
+        "longitud": -60.6011463
+    },
+    {
+        "codigo": 2783,
+        "nombreCliente": "Michetti",
+        "direccion": "ruta 1 km 2,7 local 7",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J07",
+        "latitud": -31.6266778,
+        "longitud": -60.6052029
+    },
+    {
+        "codigo": 2847,
+        "nombreCliente": "Garzilaso Cristian",
+        "direccion": "Ruta 1 km 4 1/2",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J08",
+        "latitud": -31.6183829,
+        "longitud": -60.5898566
+    },
+    {
+        "codigo": 2784,
+        "nombreCliente": "Ojeda",
+        "direccion": "ines alvarez 1818",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J09",
+        "latitud": -31.6101451,
+        "longitud": -60.5725249
+    },
+    {
+        "codigo": 2160,
+        "nombreCliente": "fortunato",
+        "direccion": "pj s/n",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J10",
+        "latitud": -31.6103942,
+        "longitud": -60.5715797
+    },
+    {
+        "codigo": 1382,
+        "nombreCliente": "Denis",
+        "direccion": "brigadier y constitu.",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J11",
+        "latitud": -31.6092456,
+        "longitud": -60.5719104
+    },
+    {
+        "codigo": 1400,
+        "nombreCliente": "Ferreira",
+        "direccion": "domingo silva y diaz",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J12",
+        "latitud": -31.6082769,
+        "longitud": -60.5719027
+    },
+    {
+        "codigo": 1560,
+        "nombreCliente": "Ayende",
+        "direccion": "brigadier lopez 1885",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J13",
+        "latitud": -31.6079422,
+        "longitud": -60.5734666
+    },
+    {
+        "codigo": 2814,
+        "nombreCliente": "figueroa",
+        "direccion": "busaniche 2455",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J14",
+        "latitud": -31.6056035,
+        "longitud": -60.5719758
+    },
+    {
+        "codigo": 1383,
+        "nombreCliente": "Sergio",
+        "direccion": "castañeda 1650",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J15",
+        "latitud": -31.605907,
+        "longitud": -60.5710342
+    },
+    {
+        "codigo": 1401,
+        "nombreCliente": "Descalso",
+        "direccion": "independencia 2234",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J16",
+        "latitud": -31.608448,
+        "longitud": -60.5665312
+    },
+    {
+        "codigo": 1402,
+        "nombreCliente": "Alvarez",
+        "direccion": "ines aluarez por sarza",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J17",
+        "latitud": -31.6090571,
+        "longitud": -60.5657978
+    },
+    {
+        "codigo": 1384,
+        "nombreCliente": "Alegre",
+        "direccion": "j.de garay 2536",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J18",
+        "latitud": -31.6053697,
+        "longitud": -60.5666088
+    },
+    {
+        "codigo": 2089,
+        "nombreCliente": "Ramirez",
+        "direccion": "l.de los santos y const",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J19",
+        "latitud": -31.603436,
+        "longitud": -60.5711619
+    },
+    {
+        "codigo": 1385,
+        "nombreCliente": "Granja",
+        "direccion": "gamboa y baganini",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J20",
+        "latitud": -31.6032038,
+        "longitud": -60.5744916
+    },
+    {
+        "codigo": 1386,
+        "nombreCliente": "Despensa",
+        "direccion": "gamboa y ruta 1",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J21",
+        "latitud": -31.6032123,
+        "longitud": -60.5744901
+    },
+    {
+        "codigo": 2174,
+        "nombreCliente": "Romero",
+        "direccion": "segui 2257",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J23",
+        "latitud": -31.6023359,
+        "longitud": -60.5668306
+    },
+    {
+        "codigo": 2848,
+        "nombreCliente": "Bambosi silvina",
+        "direccion": "San Martin 2080",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J24",
+        "latitud": -31.6046118,
+        "longitud": -60.5750323
+    },
+    {
+        "codigo": 2940,
+        "nombreCliente": "gamboa",
+        "direccion": "Saavedra 2940",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J25",
+        "latitud": -31.6031044,
+        "longitud": -60.5685928
+    },
+    {
+        "codigo": 2873,
+        "nombreCliente": "Echague",
+        "direccion": "Anton Martin 2759",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J26",
+        "latitud": -31.6015872,
+        "longitud": -60.5676097
+    },
+    {
+        "codigo": 3003,
+        "nombreCliente": "Eva",
+        "direccion": "San Martin 1950",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J27",
+        "latitud": -31.6049314,
+        "longitud": -60.5728323
+    },
+    {
+        "codigo": 2786,
+        "nombreCliente": "Frutos",
+        "direccion": "santa rosa 2440",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J28",
+        "latitud": -31.6063854,
+        "longitud": -60.5680678
+    },
+    {
+        "codigo": 2785,
+        "nombreCliente": "Alvarez",
+        "direccion": "santa rosa esq. Castañeda",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J29",
+        "latitud": -31.6066767,
+        "longitud": -60.5680336
+    },
+    {
+        "codigo": 2787,
+        "nombreCliente": "Cardozo",
+        "direccion": "ruta 1 km 6",
+        "reparto": "ViernesTardeGaleano",
+        "ciudad": "Colastine",
+        "orden": "J30",
+        "latitud": -31.6054381,
+        "longitud": -60.5763832
+    }
+]

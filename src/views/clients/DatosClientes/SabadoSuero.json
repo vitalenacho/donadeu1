@@ -1,0 +1,353 @@
+[
+    {
+        "codigo": 1591,
+        "nombreCliente": "Longo",
+        "direccion": "12 inf 1899",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T01",
+        "latitud": -31.5999283,
+        "longitud": -60.6845579
+    },
+    {
+        "codigo": 3257,
+        "nombreCliente": "Fabiana",
+        "direccion": "J De la rosa 1655",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T02",
+        "latitud": -31.6013681,
+        "longitud": -60.682154
+    },
+    {
+        "codigo": 1795,
+        "nombreCliente": "carrasco",
+        "direccion": "j de la rosa 30",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T03",
+        "latitud": -31.60446,
+        "longitud": -60.6678784
+    },
+    {
+        "codigo": 1595,
+        "nombreCliente": "pescaderia",
+        "direccion": "galicia 1199",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T04",
+        "latitud": -31.60812,
+        "longitud": -60.678923
+    },
+    {
+        "codigo": 1604,
+        "nombreCliente": "Monica",
+        "direccion": "castelli 1027",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T05",
+        "latitud": -31.6100536,
+        "longitud": -60.6774679
+    },
+    {
+        "codigo": 1596,
+        "nombreCliente": "Cano",
+        "direccion": "A casanello 816",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T06",
+        "latitud": -31.6132548,
+        "longitud": -60.6761375
+    },
+    {
+        "codigo": 3122,
+        "nombreCliente": "Pereira",
+        "direccion": "Casanello 903",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T07",
+        "latitud": -31.6130441,
+        "longitud": -60.6771683
+    },
+    {
+        "codigo": 1605,
+        "nombreCliente": "hernan",
+        "direccion": "cassanello 1498",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T08",
+        "latitud": -31.6116013,
+        "longitud": -60.6834934
+    },
+    {
+        "codigo": 1586,
+        "nombreCliente": "Javier",
+        "direccion": "alberdi 6399",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T09",
+        "latitud": -31.6114758,
+        "longitud": -60.6845996
+    },
+    {
+        "codigo": 3240,
+        "nombreCliente": "Cintia",
+        "direccion": "R Aldao 1679",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T10",
+        "latitud": -31.612262,
+        "longitud": -60.6854866
+    },
+    {
+        "codigo": 2129,
+        "nombreCliente": "Di-Conza",
+        "direccion": "llerena 2896",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T11",
+        "latitud": -31.6153356,
+        "longitud": -60.6888132
+    },
+    {
+        "codigo": 1104,
+        "nombreCliente": "Alberto",
+        "direccion": "Derqui 2053",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T12",
+        "latitud": -31.617743,
+        "longitud": -60.691435
+    },
+    {
+        "codigo": 1251,
+        "nombreCliente": "Betiana",
+        "direccion": "Las Heras 5453",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T13",
+        "latitud": -31.6187007,
+        "longitud": -60.6922573
+    },
+    {
+        "codigo": 1252,
+        "nombreCliente": "Rodriguez (diet)",
+        "direccion": "s. del carril 1816",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T14",
+        "latitud": -31.619938,
+        "longitud": -60.6894199
+    },
+    {
+        "codigo": 2887,
+        "nombreCliente": "Bugnón David",
+        "direccion": "s. del carril 1131",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T15",
+        "latitud": -31.6210082,
+        "longitud": -60.6834143
+    },
+    {
+        "codigo": 1598,
+        "nombreCliente": "Santoro",
+        "direccion": "huergo 1132",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T16",
+        "latitud": -31.6179814,
+        "longitud": -60.6811164
+    },
+    {
+        "codigo": 1651,
+        "nombreCliente": "Cothey",
+        "direccion": "dorrego 5638",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T17",
+        "latitud": -31.6195457,
+        "longitud": -60.6812743
+    },
+    {
+        "codigo": 3243,
+        "nombreCliente": "Carlos",
+        "direccion": "Guemes 5745",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T18",
+        "latitud": -31.618154,
+        "longitud": -60.683064
+    },
+    {
+        "codigo": 1253,
+        "nombreCliente": "Ester",
+        "direccion": "Sarmiento 5203",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T19",
+        "latitud": -31.6220091,
+        "longitud": -60.6886934
+    },
+    {
+        "codigo": 1254,
+        "nombreCliente": "Jose Luis",
+        "direccion": "A Delgado 1870",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T20",
+        "latitud": -31.6226583,
+        "longitud": -60.6909317
+    },
+    {
+        "codigo": 3000,
+        "nombreCliente": "Romero",
+        "direccion": "Gral Paz 4890",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T21",
+        "latitud": -31.6250369,
+        "longitud": -60.6892343
+    },
+    {
+        "codigo": 1256,
+        "nombreCliente": "Julio",
+        "direccion": "Mitre 4414",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T22",
+        "latitud": -31.6298928,
+        "longitud": -60.6887492
+    },
+    {
+        "codigo": 1259,
+        "nombreCliente": "Antonela",
+        "direccion": "J Campillo 1374",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T23",
+        "latitud": -31.6328537,
+        "longitud": -60.6881221
+    },
+    {
+        "codigo": 2979,
+        "nombreCliente": "Lautaro",
+        "direccion": "Lavalle y Cordoba",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T24",
+        "latitud": -31.6310232,
+        "longitud": -60.6878395
+    },
+    {
+        "codigo": 3008,
+        "nombreCliente": "Alejandra",
+        "direccion": "Pedro Ferre 1164",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T25",
+        "latitud": -31.6295974,
+        "longitud": -60.6849664
+    },
+    {
+        "codigo": 1255,
+        "nombreCliente": "Sebastian",
+        "direccion": "Colodrero 1120",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T26",
+        "latitud": -31.6289231,
+        "longitud": -60.6842151
+    },
+    {
+        "codigo": 2929,
+        "nombreCliente": "Sistarz",
+        "direccion": "P Ferre 1221",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T27",
+        "latitud": -31.6296239,
+        "longitud": -60.6857331
+    },
+    {
+        "codigo": 1588,
+        "nombreCliente": "Bejano",
+        "direccion": "gutierrez 1213",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T28",
+        "latitud": -31.627001,
+        "longitud": -60.684734
+    },
+    {
+        "codigo": 1589,
+        "nombreCliente": "Bornetune",
+        "direccion": "dorrego 4993",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T29",
+        "latitud": -31.6256502,
+        "longitud": -60.683005
+    },
+    {
+        "codigo": 1590,
+        "nombreCliente": "Perez",
+        "direccion": "quintana 1230",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T30",
+        "latitud": -31.6259933,
+        "longitud": -60.6845703
+    },
+    {
+        "codigo": 2533,
+        "nombreCliente": "Mauricio",
+        "direccion": "guemes 4947",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T31",
+        "latitud": -31.6254715,
+        "longitud": -60.6853045
+    },
+    {
+        "codigo": 2886,
+        "nombreCliente": "Roberto neri",
+        "direccion": "Guemes 5099",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T32",
+        "latitud": -31.624004,
+        "longitud": -60.68495
+    },
+    {
+        "codigo": 3218,
+        "nombreCliente": "Cusinatto",
+        "direccion": "Lavalle 5200",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T33",
+        "latitud": -31.622804,
+        "longitud": -60.6856348
+    },
+    {
+        "codigo": 1191,
+        "nombreCliente": "Perez",
+        "direccion": "G Paz 5100",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T34",
+        "latitud": -31.623282,
+        "longitud": -60.687978
+    },
+    {
+        "codigo": 2949,
+        "nombreCliente": "Maciel Norma",
+        "direccion": "Lavalle 6158",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T35",
+        "latitud": -31.6143339,
+        "longitud": -60.6830562
+    },
+    {
+        "codigo": 3134,
+        "nombreCliente": "Sebastian",
+        "direccion": "Zaballa y Boneo",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T36",
+        "latitud": -31.6009755,
+        "longitud": -60.7070601
+    },
+    {
+        "codigo": 1191,
+        "nombreCliente": "Perez",
+        "direccion": "G Paz Y A Delgado",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T37",
+        "latitud": -31.623282,
+        "longitud": -60.687978
+    },
+    {
+        "codigo": 3254,
+        "nombreCliente": "los mellis",
+        "direccion": "S d carril 1308",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T38",
+        "latitud": -31.620903,
+        "longitud": -60.683968
+    },
+    {
+        "codigo": 3262,
+        "nombreCliente": "Polleria Beto",
+        "direccion": "S d carril 1257",
+        "reparto": "SabadoMañanaSuero",
+        "orden": "T39",
+        "latitud": -31.6210031,
+        "longitud": -60.6835928
+    }
+]

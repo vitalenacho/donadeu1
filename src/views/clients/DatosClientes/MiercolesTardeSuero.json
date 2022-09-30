@@ -1,0 +1,209 @@
+[
+    {
+        "codigo": 2605,
+        "nombreCliente": "pedro",
+        "direccion": "europa 7973",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P01",
+        "latitud": -31.5903402,
+        "longitud": -60.7177574
+    },
+    {
+        "codigo": 2994,
+        "nombreCliente": "Diego",
+        "direccion": "Pio Pandolfo 8996",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P02",
+        "latitud": -31.5771917,
+        "longitud": -60.7270059
+    },
+    {
+        "codigo": 3019,
+        "nombreCliente": "Gamarra",
+        "direccion": "F Fernandez 5266",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P03",
+        "latitud": -31.5765875,
+        "longitud": -60.7235616
+    },
+    {
+        "codigo": 3152,
+        "nombreCliente": "Franco",
+        "direccion": "Pje Publico 9178",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P04",
+        "latitud": -31.575754,
+        "longitud": -60.7231514
+    },
+    {
+        "codigo": 1202,
+        "nombreCliente": "Belen",
+        "direccion": "hermanos madeos 9638",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P05",
+        "latitud": -31.5743168,
+        "longitud": -60.7110799
+    },
+    {
+        "codigo": 2956,
+        "nombreCliente": "Motta",
+        "direccion": "Peñaloza 9955",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P08",
+        "latitud": -31.570299,
+        "longitud": -60.709346
+    },
+    {
+        "codigo": 2875,
+        "nombreCliente": "Erpen",
+        "direccion": "Jose Doldan",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P09",
+        "latitud": -31.5695451,
+        "longitud": -60.7106778
+    },
+    {
+        "codigo": 1205,
+        "nombreCliente": "Ricardo",
+        "direccion": "aguado 10083",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P11",
+        "latitud": -31.5688599,
+        "longitud": -60.7100878
+    },
+    {
+        "codigo": 1207,
+        "nombreCliente": "Lorena",
+        "direccion": "gorriti 4942",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P14",
+        "latitud": -31.5679983,
+        "longitud": -60.7088702
+    },
+    {
+        "codigo": 1208,
+        "nombreCliente": "Maria",
+        "direccion": "gaboto 10520",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P16",
+        "latitud": -31.5669661,
+        "longitud": -60.7059299
+    },
+    {
+        "codigo": 2145,
+        "nombreCliente": "Gabriela",
+        "direccion": "pj.parana 10558",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P17",
+        "latitud": -31.5666178,
+        "longitud": -60.7054508
+    },
+    {
+        "codigo": 1209,
+        "nombreCliente": "Marcelo",
+        "direccion": "g de la madrid 10595",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P18",
+        "latitud": -31.5661705,
+        "longitud": -60.7049041
+    },
+    {
+        "codigo": 1210,
+        "nombreCliente": "Kinquela",
+        "direccion": "pje sin nombre 4174",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P19",
+        "latitud": -31.5658016,
+        "longitud": -60.7043627
+    },
+    {
+        "codigo": 1568,
+        "nombreCliente": "Zonco",
+        "direccion": "Damiovich 7142",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P20",
+        "latitud": -31.5729603,
+        "longitud": -60.6911282
+    },
+    {
+        "codigo": 1211,
+        "nombreCliente": "Mariano",
+        "direccion": "pj. Alfonso 10557",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P21",
+        "latitud": -31.5672037,
+        "longitud": -60.7030235
+    },
+    {
+        "codigo": 3097,
+        "nombreCliente": "Granja",
+        "direccion": "Malaver 3904",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P22",
+        "latitud": -31.567196,
+        "longitud": -60.7001083
+    },
+    {
+        "codigo": 2908,
+        "nombreCliente": "Daniela",
+        "direccion": "Psje Denis 10326",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P23",
+        "latitud": -31.5699654,
+        "longitud": -60.6993759
+    },
+    {
+        "codigo": 1213,
+        "nombreCliente": "Beatriz",
+        "direccion": "san juan 10274",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P25",
+        "latitud": -31.5706179,
+        "longitud": -60.6988383
+    },
+    {
+        "codigo": 1214,
+        "nombreCliente": "Ruben",
+        "direccion": "zaballa 10557",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P26",
+        "latitud": -31.5687264,
+        "longitud": -60.6972886
+    },
+    {
+        "codigo": 1215,
+        "nombreCliente": "Oliver",
+        "direccion": "gorriti 2950",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P27",
+        "latitud": -31.5900368,
+        "longitud": -60.6944673
+    },
+    {
+        "codigo": 1216,
+        "nombreCliente": "Morgan",
+        "direccion": "san juan 7050",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P28",
+        "latitud": -31.600125,
+        "longitud": -60.708157
+    },
+    {
+        "codigo": 1233,
+        "nombreCliente": "Alicia",
+        "direccion": "Espora",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P29",
+        "latitud": -31.6005616,
+        "longitud": -60.7079652
+    },
+    {
+        "codigo": 2118,
+        "nombreCliente": "Carolina",
+        "direccion": "Pedro de Vega",
+        "reparto": "MiercolesTardeSuero",
+        "orden": "P30",
+        "latitud": -31.6085462,
+        "longitud": -60.7072947
+    }
+]

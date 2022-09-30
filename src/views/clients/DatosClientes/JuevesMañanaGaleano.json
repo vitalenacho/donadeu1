@@ -1,0 +1,344 @@
+{
+    "clientes": [
+        {
+            "codigo": 3259,
+            "nombreCliente": "Sandra",
+            "direccion": "Berutti 4151",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G01",
+            "latitud": -31.5872046,
+            "longitud": -60.710958
+        },
+        {
+            "codigo": 2187,
+            "nombreCliente": "Rodriguez",
+            "direccion": "arenales 6699",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G02",
+            "latitud": -31.5999117,
+            "longitud": -60.7233649
+        },
+        {
+            "codigo": 2195,
+            "nombreCliente": "Franzo",
+            "direccion": "castelli 4890",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G03",
+            "latitud": -31.5998657,
+            "longitud": -60.723938
+        },
+        {
+            "codigo": 2266,
+            "nombreCliente": "Robles",
+            "direccion": "Castelli 4982",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G04",
+            "latitud": -31.5999833,
+            "longitud": -60.7243398
+        },
+        {
+            "codigo": 2188,
+            "nombreCliente": "Peiteado",
+            "direccion": "cervera 6643",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G05",
+            "latitud": -31.60228,
+            "longitud": -60.72339
+        },
+        {
+            "codigo": 2192,
+            "nombreCliente": "Ballhorst",
+            "direccion": "cervera 6728",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G06",
+            "latitud": -31.5995502,
+            "longitud": -60.7241903
+        },
+        {
+            "codigo": 2197,
+            "nombreCliente": "Zapata",
+            "direccion": "bernardo i 6855",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G07",
+            "latitud": -31.5995653,
+            "longitud": -60.7249721
+        },
+        {
+            "codigo": 2191,
+            "nombreCliente": "Mazuchini",
+            "direccion": "castelli 5056",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G08",
+            "latitud": -31.5997698,
+            "longitud": -60.7262942
+        },
+        {
+            "codigo": 2210,
+            "nombreCliente": "Mansilla",
+            "direccion": "zeballos 5273",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G09",
+            "latitud": -31.5983273,
+            "longitud": -60.7288769
+        },
+        {
+            "codigo": 2190,
+            "nombreCliente": "Isaurralde",
+            "direccion": "castañudui 6883",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G10",
+            "latitud": -31.5980289,
+            "longitud": -60.7263177
+        },
+        {
+            "codigo": 3033,
+            "nombreCliente": "Ramirez",
+            "direccion": "Castañudui 6910",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G11",
+            "latitud": -31.598124,
+            "longitud": -60.7263615
+        },
+        {
+            "codigo": 2189,
+            "nombreCliente": "Camara",
+            "direccion": "espora 5125",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G12",
+            "latitud": -31.5965044,
+            "longitud": -60.7280849
+        },
+        {
+            "codigo": 2203,
+            "nombreCliente": "Pereyra",
+            "direccion": "chiclana 7434",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G13",
+            "latitud": -31.5925863,
+            "longitud": -60.7284631
+        },
+        {
+            "codigo": 3032,
+            "nombreCliente": "Ovelar",
+            "direccion": "Chiclana 7453",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G14",
+            "latitud": -31.5925162,
+            "longitud": -60.7285023
+        },
+        {
+            "codigo": 2204,
+            "nombreCliente": "Caceres",
+            "direccion": "crespo 7494",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G15",
+            "latitud": -31.5918069,
+            "longitud": -60.7293111
+        },
+        {
+            "codigo": 2829,
+            "nombreCliente": "Mucchiutti",
+            "direccion": "ignacio crespo 7347",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G16",
+            "latitud": -31.5929521,
+            "longitud": -60.7296529
+        },
+        {
+            "codigo": 2205,
+            "nombreCliente": "Vazques",
+            "direccion": "lheman 7459",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G17",
+            "latitud": -31.5919701,
+            "longitud": -60.730541
+        },
+        {
+            "codigo": 2981,
+            "nombreCliente": "Ledesma",
+            "direccion": "Lheman 7448",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G18",
+            "latitud": -31.592001,
+            "longitud": -60.7304808
+        },
+        {
+            "codigo": 2215,
+            "nombreCliente": "Fernandez",
+            "direccion": "lheman 7518",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G19",
+            "latitud": -31.5913781,
+            "longitud": -60.7304171
+        },
+        {
+            "codigo": 2217,
+            "nombreCliente": "Vega",
+            "direccion": "12 inf. 5544",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G20",
+            "latitud": -31.5908643,
+            "longitud": -60.7293651
+        },
+        {
+            "codigo": 2218,
+            "nombreCliente": "Venencia",
+            "direccion": "ayacucho 5561",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G21",
+            "latitud": -31.5899367,
+            "longitud": -60.7294965
+        },
+        {
+            "codigo": 2220,
+            "nombreCliente": "Martinez",
+            "direccion": "pavon 5440",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G22",
+            "latitud": -31.58886,
+            "longitud": -60.7280459
+        },
+        {
+            "codigo": 2219,
+            "nombreCliente": "Bernardo",
+            "direccion": "pavon 5615",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G23",
+            "latitud": -31.5889101,
+            "longitud": -60.7298372
+        },
+        {
+            "codigo": 2540,
+            "nombreCliente": "Lopez Yesica",
+            "direccion": "Pavon 5730",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G24",
+            "latitud": -31.5885515,
+            "longitud": -60.731173
+        },
+        {
+            "codigo": 3159,
+            "nombreCliente": "Nuñez",
+            "direccion": "Larrea 6024",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G25",
+            "latitud": -31.5870511,
+            "longitud": -60.7343775
+        },
+        {
+            "codigo": 2307,
+            "nombreCliente": "Florio",
+            "direccion": "larrea 6085",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G26",
+            "latitud": -31.5870555,
+            "longitud": -60.7348387
+        },
+        {
+            "codigo": 2308,
+            "nombreCliente": "Piug",
+            "direccion": "larrea 6200",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G27",
+            "latitud": -31.5866738,
+            "longitud": -60.736482
+        },
+        {
+            "codigo": 2359,
+            "nombreCliente": "Mendoza",
+            "direccion": "benitte,esq viños",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G28",
+            "latitud": -31.5834454,
+            "longitud": -60.7345292
+        },
+        {
+            "codigo": 2583,
+            "nombreCliente": "Aguirre",
+            "direccion": "paucke 6235",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G29",
+            "latitud": -31.5811886,
+            "longitud": -60.736311
+        },
+        {
+            "codigo": 2390,
+            "nombreCliente": "Martinez",
+            "direccion": "hugo wash 6462",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G30",
+            "latitud": -31.5747472,
+            "longitud": -60.7380923
+        },
+        {
+            "codigo": 2982,
+            "nombreCliente": "Daiana",
+            "direccion": "H Figueroa 9084",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G31",
+            "latitud": -31.5754367,
+            "longitud": -60.7369828
+        },
+        {
+            "codigo": 2844,
+            "nombreCliente": "piedrabuena",
+            "direccion": "piedrabuena 6045",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G32",
+            "latitud": -31.5774068,
+            "longitud": -60.7344705
+        },
+        {
+            "codigo": 2584,
+            "nombreCliente": "Natalia Gomez",
+            "direccion": "Pje Publico 8159",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G33",
+            "latitud": -31.5869744,
+            "longitud": -60.720554
+        },
+        {
+            "codigo": 3108,
+            "nombreCliente": "Gomez",
+            "direccion": "Leiva 8354",
+            "reparto": "JuevesMañanaGaleano",
+            "ciudad": "Santa Fe",
+            "orden": "G34",
+            "latitud": -31.5846852,
+            "longitud": -60.7224725
+        }
+    ]
+}

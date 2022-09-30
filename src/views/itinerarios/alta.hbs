@@ -1,0 +1,150 @@
+<form>
+    <div class='em-edit-day'>
+        <div class='em-day-header'>
+            <div class='clients-head'>Clientes</div>
+            <div class='itinerary-head'>Itinerario - Tuesday 09/12/2014</div>
+            <div class='map-head'>Mapa</div>
+        </div>
+        <div class='em-day-body'>
+            <div class='em-day-content clientes'>
+                <div class='content'>
+                    {{#each clientesSinAsignar}}
+                    <div class='clt'>{{nombre}}<input type="hidden" data-latLon="{{toJSON this}}"></div>
+                    {{/each}}
+                </div>
+            </div>
+            <div class='em-day-content itinerarios'>
+                <div class='content'>
+                    <div class='itinerary'>
+                        <div class='itinerary-name'>Itinerario</div>
+                        <div class='itinerary-emp'></div>
+                    </div>
+                </div>
+            </div>
+            <div class='em-day-content vehicles'>
+                <div class='content'>
+                    <div id="map" class="mx-auto my-auto"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<script type="text/javascript" src="/js/autocomplete.js"></script>
+<script type="text/javascript" src="/js/displayItineraryMap.js"></script>
+<script>
+
+    /*
+var dropOptions = {
+        accept: ".emp",
+        activeClass: "active",
+        drop: function (event, ui) {
+            ui.draggable.addClass("dropped");
+            //console.log(ui.draggable.parent().hasClass("content"));
+            if (ui.draggable.parent().hasClass("content")) {
+                ui.draggable.detach().appendTo($(this));
+                var nodos = document.getElementsByClassName("emp");
+                var empleados = document.getElementsByClassName("job-emp");
+                console.log(nodos.length, empleados.length);
+                if (nodos.length > empleados.length) {
+                    $("<div class='job-emp'></div>").appendTo(".job").droppable(dropOptions);
+                }
+            } else {
+                if ($(this)[0].childNodes.length == 0) {
+                    //console.log("caca")
+                    ui.draggable.detach().appendTo($(this));
+                } else {
+
+                    var copyDrop = $($(this)[0].childNodes).detach();
+                    var copyDrag = ui.draggable.parent();
+
+                    copyDrop.appendTo(copyDrag);
+                    ui.draggable.detach().appendTo($(this));
+
+                }
+
+            }
+        }
+    }
+    */
+
+    var dropOptions = {
+        accept: ".clt",
+        activeClass: "active",
+        hoverClass: "drop-hover",
+        drop: function (event, ui) {
+            //console.log(ui.draggable.parent().hasClass("content"));
+            if ($(this)[0].childNodes.length == 0) {
+                if (ui.draggable.parent().hasClass("content")) {
+                    ui.draggable.detach().appendTo($(this));
+                    var nodos = document.getElementsByClassName("clt");
+                    var empleados = document.getElementsByClassName("itinerary-emp");
+                    //console.log(nodos.length, empleados.length);
+                    ui.draggable.addClass("dropped");
+                    if (nodos.length > empleados.length) {
+                        $("<div class='itinerary-emp'></div>").appendTo(".itinerary").droppable(dropOptions);
+                    }
+                } else {
+                    ui.draggable.addClass("dropped");
+                    ui.draggable.detach().appendTo($(this));
+                }
+            } else {
+                //console.log(ui.draggable.parent().hasClass("content"));
+                if (!ui.draggable.parent().hasClass("content")) {
+                    ui.draggable.addClass("dropped");
+                    var copyDrop = $($(this)[0].childNodes).detach();
+                    var copyDrag = ui.draggable.parent();
+
+                    copyDrop.appendTo(copyDrag);
+                    ui.draggable.detach().appendTo($(this));
+                }
+
+            }
+        
+        displayRoutes(document.querySelectorAll(".itinerary-emp .clt input"));
+        //console.log($(this).parent()[0].children);
+        }
+    }
+
+
+    $(".clt").draggable({
+        revert: true,
+        containment: "window",
+        cursor: "move",
+        start: function (event, ui) {
+            //console.log($(this));
+            $(this).addClass("dragged");
+        },
+        stop: function (event, ui) {
+            $(this).removeClass("dragged");
+        }
+    });
+
+    $(".itinerary-emp").droppable(dropOptions);
+
+    $(".vhc").draggable({
+        revert: "invalid",
+        containment: "window",
+        cursor: "move",
+        start: function (event, ui) {
+            $(this).addClass("dragged");
+        },
+        stop: function (event, ui) {
+            $(this).removeClass("dragged");
+        }
+    });
+
+    $(".itinerary-vhc").droppable({
+        accept: ".vhc",
+        activeClass: "active",
+        drop: function (event, ui) {
+            ui.draggable.addClass("dropped");
+            ui.draggable.detach().appendTo($(this));
+        }
+    });
+
+</script>
+<script>
+    window.addEventListener('resize', function () {
+    map.getViewPort().resize(); 
+});
+</script>

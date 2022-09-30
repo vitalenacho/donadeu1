@@ -1,0 +1,403 @@
+[
+    {
+        "codigo": 1470,
+        "nombreCliente": "Montenegro",
+        "direccion": "3 de febrero 3179",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Santo Tome",
+        "orden": "F01",
+        "latitud": -31.6745418,
+        "longitud": -60.7824092
+    },
+    {
+        "codigo": 1657,
+        "nombreCliente": "Pavesi",
+        "direccion": "3236-12-13T03:00:00.000Z",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Santo Tome",
+        "orden": "F02",
+        "latitud": -31.6750677,
+        "longitud": -60.7845969
+    },
+    {
+        "codigo": 1558,
+        "nombreCliente": "Caceres",
+        "direccion": "3 de febrero 3345",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Santo Tome",
+        "orden": "F03",
+        "latitud": -31.6770366,
+        "longitud": -60.7832338
+    },
+    {
+        "codigo": 1472,
+        "nombreCliente": "Forte",
+        "direccion": "lisandro 3787",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Santo Tome",
+        "orden": "F04",
+        "latitud": -31.676374,
+        "longitud": -60.7858846
+    },
+    {
+        "codigo": 1473,
+        "nombreCliente": "Aguirre",
+        "direccion": "jujuy 2734",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Santo Tome",
+        "orden": "F05",
+        "latitud": -31.6773853,
+        "longitud": -60.7853236
+    },
+    {
+        "codigo": 2128,
+        "nombreCliente": "Martinez",
+        "direccion": "jujuy 3895",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Santo Tome",
+        "orden": "F06",
+        "latitud": -31.6767867,
+        "longitud": -60.7870817
+    },
+    {
+        "codigo": 2110,
+        "nombreCliente": "carnaveri",
+        "direccion": "3844-09-12T03:00:00.000Z",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Santo Tome",
+        "orden": "F07",
+        "latitud": -31.6777764,
+        "longitud": -60.7870146
+    },
+    {
+        "codigo": 1706,
+        "nombreCliente": "Sosa",
+        "direccion": "alberdi 3752",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Santo Tome",
+        "orden": "F08",
+        "latitud": -31.6784526,
+        "longitud": -60.7862441
+    },
+    {
+        "codigo": 2133,
+        "nombreCliente": "Peralta",
+        "direccion": "4 de e y s. del estero",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Santo Tome",
+        "orden": "F09",
+        "latitud": -31.6733287,
+        "longitud": -60.7808881
+    },
+    {
+        "codigo": 1557,
+        "nombreCliente": "Orellano",
+        "direccion": "13 dic.y uruguay",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Santo Tome",
+        "orden": "F10",
+        "latitud": -31.6803838,
+        "longitud": -60.7860422
+    },
+    {
+        "codigo": 1620,
+        "nombreCliente": "Dalacosta",
+        "direccion": "j.de garay 1066",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F11",
+        "latitud": -31.703976,
+        "longitud": -60.800858
+    },
+    {
+        "codigo": 1707,
+        "nombreCliente": "Torres",
+        "direccion": "j.d.solis 1186",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F12",
+        "latitud": -31.7049268,
+        "longitud": -60.7998816
+    },
+    {
+        "codigo": 1555,
+        "nombreCliente": "Gorosito",
+        "direccion": "j diaz solis 1124",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F13",
+        "latitud": -31.7049464,
+        "longitud": -60.7997755
+    },
+    {
+        "codigo": 2937,
+        "nombreCliente": "Viela",
+        "direccion": "Sauces 1577",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F14",
+        "latitud": -31.718812,
+        "longitud": -60.7982876
+    },
+    {
+        "codigo": 2933,
+        "nombreCliente": "Gomez",
+        "direccion": "Fresnos 1499",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F15",
+        "latitud": -31.7177631,
+        "longitud": -60.799067
+    },
+    
+    {
+        "codigo": 2798,
+        "nombreCliente": "colazo",
+        "direccion": "amapola 4468",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F17",
+        "latitud": -31.7195781,
+        "longitud": -60.8079918
+    },
+    {
+        "codigo": 1766,
+        "nombreCliente": "Dilucas",
+        "direccion": "el mate 1529",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F18",
+        "latitud": -31.7206965,
+        "longitud": -60.801111
+    },
+    {
+        "codigo": 1767,
+        "nombreCliente": "El Koala",
+        "direccion": "el mate 1460",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F19",
+        "latitud": -31.7207595,
+        "longitud": -60.8023677
+    },
+    {
+        "codigo": 1621,
+        "nombreCliente": "Mini Mercado",
+        "direccion": "Ruta 11 y austria",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F20",
+        "latitud": -31.726558,
+        "longitud": -60.8128376
+    },
+    {
+        "codigo": 1622,
+        "nombreCliente": "Canteros",
+        "direccion": "finlandia y r. 11",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F21",
+        "latitud": -31.7291274,
+        "longitud": -60.813726
+    },
+    {
+        "codigo": 2879,
+        "nombreCliente": "Dalla Costa",
+        "direccion": "Noruega 1314",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F22",
+        "latitud": -31.7299733,
+        "longitud": -60.8061615
+    },
+    {
+        "codigo": 1571,
+        "nombreCliente": "Porto",
+        "direccion": "R 11 5769",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F23",
+        "latitud": -31.7334283,
+        "longitud": -60.8152986
+    },
+    {
+        "codigo": 2088,
+        "nombreCliente": "La Previa",
+        "direccion": "uriburu y r.speña",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F24",
+        "latitud": -31.7638894,
+        "longitud": -60.830446
+    },
+    {
+        "codigo": 1574,
+        "nombreCliente": "Rosini",
+        "direccion": "doc.galves 1240",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F25",
+        "latitud": -31.771117,
+        "longitud": -60.836484
+    },
+    {
+        "codigo": 1623,
+        "nombreCliente": "Femari",
+        "direccion": "ecuador 2875",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F26",
+        "latitud": -31.774624,
+        "longitud": -60.8412351
+    },
+    {
+        "codigo": 1577,
+        "nombreCliente": "Amalia",
+        "direccion": "brasil 1401",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F27",
+        "latitud": -31.7765252,
+        "longitud": -60.838919
+    },
+    {
+        "codigo": 1578,
+        "nombreCliente": "Gelbert",
+        "direccion": "entre rios casa 18",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F28",
+        "latitud": -31.7775208,
+        "longitud": -60.8409585
+    },
+    {
+        "codigo": 1768,
+        "nombreCliente": "Vallejos",
+        "direccion": "santa teresita s/n",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F29",
+        "latitud": -31.7773991,
+        "longitud": -60.8412862
+    },
+    {
+        "codigo": 1659,
+        "nombreCliente": "Escalante",
+        "direccion": "bs.as 1019",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F30",
+        "latitud": -31.7714401,
+        "longitud": -60.8391567
+    },
+    {
+        "codigo": 3031,
+        "nombreCliente": "Amott",
+        "direccion": "9 de julio 2458",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F31",
+        "latitud": -31.7715046,
+        "longitud": -60.8381764
+    },
+    {
+        "codigo": 3006,
+        "nombreCliente": "Hernandez",
+        "direccion": "Bs As 1151",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F32",
+        "latitud": -31.7722027,
+        "longitud": -60.8387424
+    },
+    {
+        "codigo": 3224,
+        "nombreCliente": "Martinez",
+        "direccion": "Uruguay 3075",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F34",
+        "latitud": -31.6810769,
+        "longitud": -60.7787254
+    },
+    {
+        "codigo": 3231,
+        "nombreCliente": "Flaquer",
+        "direccion": "Alberdi 2514",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F35",
+        "latitud": -31.680782,
+        "longitud": -60.7711281
+    },
+    {
+        "codigo": 3238,
+        "nombreCliente": "Ferrero",
+        "direccion": "Belgrano 3838",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F36",
+        "latitud": -31.6840424,
+        "longitud": -60.7646224
+    },
+    {
+        "codigo": 2739,
+        "nombreCliente": "Ortega",
+        "direccion": "Salta 3754",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F37",
+        "latitud": -31.6830603,
+        "longitud": -60.7604621
+    },
+    {
+        "codigo": 3292,
+        "nombreCliente": "Rios",
+        "direccion": "Uruguay 1474",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F38",
+        "latitud": -31.6844143,
+        "longitud": -60.7592727
+    },
+    {
+        "codigo": 3045,
+        "nombreCliente": "Aguirre",
+        "direccion": "Alberdi 1530",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F39",
+        "latitud": -31.6824353,
+        "longitud": -60.760147
+    },
+    {
+        "codigo": 3130,
+        "nombreCliente": "Padin",
+        "direccion": "Libertad 2423",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F40",
+        "latitud": -31.6706187,
+        "longitud": -60.76062
+    },
+    {
+        "codigo": 3185,
+        "nombreCliente": "Pavon",
+        "direccion": "Libertad esq Derqui",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F41",
+        "latitud": -31.6709591,
+        "longitud": -60.7606804
+    },
+    {
+        "codigo": 1793,
+        "nombreCliente": "Gomez",
+        "direccion": "alberdi 2606",
+        "reparto": "MiercolesTardeGaleano",
+        "ciudad": "Sauce Viejo",
+        "orden": "F42",
+        "latitud": -31.6440164,
+        "longitud": -60.6941336
+    }
+]

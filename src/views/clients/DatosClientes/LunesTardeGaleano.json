@@ -1,0 +1,292 @@
+{
+    "clientes": [
+        {
+            "codigo": 2568,
+            "nombreCliente": "Casal",
+            "direccion": "Catena 4223",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B01",
+            "latitud": -31.6311934,
+            "longitud": -60.7211593
+        },
+        {
+            "codigo": 1753,
+            "nombreCliente": "Garcia",
+            "direccion": "pedro centeno 4423",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B02",
+            "latitud": -31.6324739,
+            "longitud": -60.7236649
+        },
+        {
+            "codigo": 1784,
+            "nombreCliente": "Juarez",
+            "direccion": "padre catena 4435",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B03",
+            "latitud": -31.6102602,
+            "longitud": -60.5727019
+        },
+        {
+            "codigo": 3025,
+            "nombreCliente": "Caceres",
+            "direccion": "Pje Irala 4577",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B04",
+            "latitud": -31.6333382,
+            "longitud": -60.7238868
+        },
+        {
+            "codigo": 1755,
+            "nombreCliente": "Miranda",
+            "direccion": "27 de ene.3580",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B05",
+            "latitud": -31.6308887,
+            "longitud": -60.7219518
+        },
+        {
+            "codigo": 2969,
+            "nombreCliente": "Aquino",
+            "direccion": "Catena 4150",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B06",
+            "latitud": -31.6307069,
+            "longitud": -60.7200314
+        },
+        {
+            "codigo": 1978,
+            "nombreCliente": "Jaime",
+            "direccion": "peron 4002",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B07",
+            "latitud": -31.6275318,
+            "longitud": -60.7188457
+        },
+        {
+            "codigo": 3261,
+            "nombreCliente": "Oscar",
+            "direccion": "Cordoba 4142",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B08",
+            "latitud": -31.6246793,
+            "longitud": -60.7201725
+        },
+        {
+            "codigo": 2022,
+            "nombreCliente": "Valiente",
+            "direccion": "lopez 4414",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B09",
+            "latitud": -31.6241835,
+            "longitud": -60.7151219
+        },
+        {
+            "codigo": 2880,
+            "nombreCliente": "Villareal",
+            "direccion": "La Paz 4398",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B10",
+            "latitud": -31.6241797,
+            "longitud": -60.7151851
+        },
+        {
+            "codigo": 3260,
+            "nombreCliente": "Analia",
+            "direccion": "Centeno 3846",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B11",
+            "latitud": -31.6240229,
+            "longitud": -60.7170838
+        },
+        {
+            "codigo": 2867,
+            "nombreCliente": "Perez",
+            "direccion": "Cochabamba 4450",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B12",
+            "latitud": -31.6237431,
+            "longitud": -60.716417
+        },
+        {
+            "codigo": 1759,
+            "nombreCliente": "Ortiz",
+            "direccion": "artigas 4016",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B13",
+            "latitud": -31.620772,
+            "longitud": -60.7187936
+        },
+        {
+            "codigo": 2935,
+            "nombreCliente": "Arbizu",
+            "direccion": "Artigas 3721",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B14",
+            "latitud": -31.6210829,
+            "longitud": -60.7136338
+        },
+        {
+            "codigo": 1775,
+            "nombreCliente": "Sosa",
+            "direccion": "domingo silva 2916",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B15",
+            "latitud": -31.6300654,
+            "longitud": -60.7060543
+        },
+        {
+            "codigo": 1776,
+            "nombreCliente": "Liponeshky",
+            "direccion": "pedro ferré 3204",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B16",
+            "latitud": -31.624831,
+            "longitud": -60.7088537
+        },
+        {
+            "codigo": 1777,
+            "nombreCliente": "Allena",
+            "direccion": "quintana 3530",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B17",
+            "latitud": -31.620101,
+            "longitud": -60.7119435
+        },
+        {
+            "codigo": 1778,
+            "nombreCliente": "Carciani",
+            "direccion": "martin zapata 3862",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B18",
+            "latitud": -31.6175782,
+            "longitud": -60.7149297
+        },
+        {
+            "codigo": 1284,
+            "nombreCliente": "Bello",
+            "direccion": "El Pozo M15 V2",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B19",
+            "latitud": -31.6373772,
+            "longitud": -60.6584552
+        },
+        {
+            "codigo": 2822,
+            "nombreCliente": "villanueva",
+            "direccion": "manzana 5 v 13",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B20",
+            "latitud": -31.6396747,
+            "longitud": -60.6600571
+        },
+        {
+            "codigo": 1281,
+            "nombreCliente": "Sanchez",
+            "direccion": "El Pozo M2 V12",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B21",
+            "latitud": -31.6379126,
+            "longitud": -60.6566613
+        },
+        {
+            "codigo": 2996,
+            "nombreCliente": "Rossi Liliana",
+            "direccion": "M 2 V 21",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B22",
+            "latitud": -31.6379726,
+            "longitud": -60.6566525
+        },
+        {
+            "codigo": 1282,
+            "nombreCliente": "Gueldre",
+            "direccion": "El Pozo M2 V27",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B23",
+            "latitud": -31.6379318,
+            "longitud": -60.6566519
+        },
+        {
+            "codigo": 1290,
+            "nombreCliente": "Steffani",
+            "direccion": "El Pozo M1 V14",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B24",
+            "latitud": -31.6372749,
+            "longitud": -60.658233
+        },
+        {
+            "codigo": 1287,
+            "nombreCliente": "Cejas",
+            "direccion": "El Pozo t5 local 1",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B25",
+            "latitud": -31.6373446,
+            "longitud": -60.65844
+        },
+        {
+            "codigo": 1291,
+            "nombreCliente": "Danisa",
+            "direccion": "El Pozo M8 V28",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B26",
+            "latitud": -31.6375756,
+            "longitud": -60.660831
+        },
+        {
+            "codigo": 1288,
+            "nombreCliente": "Gonzales",
+            "direccion": "El Pozo t8 local 1",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B27",
+            "latitud": -31.6370011,
+            "longitud": -60.6594289
+        },
+        {
+            "codigo": 1285,
+            "nombreCliente": "Rosati",
+            "direccion": "El Pozo M18 V59",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B28",
+            "latitud": -31.6355843,
+            "longitud": -60.6590688
+        },
+        {
+            "codigo": 1782,
+            "nombreCliente": "Cienfuegos",
+            "direccion": "Torre 14 local 3",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B29",
+            "latitud": -31.6350155,
+            "longitud": -60.6594857
+        },
+        {
+            "codigo": 3135,
+            "nombreCliente": "Canteros",
+            "direccion": "T 3 Local 3",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B30",
+            "latitud": -31.6358335,
+            "longitud": -60.6589159
+        },
+        {
+            "codigo": 3144,
+            "nombreCliente": "Barin",
+            "direccion": "M 18 V 54 local",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B31",
+            "latitud": -31.6357864,
+            "longitud": -60.6588773
+        },
+        {
+            "codigo": 1289,
+            "nombreCliente": "Pereyra",
+            "direccion": "El Pozo M17 V23",
+            "reparto": "LunesTardeGaleano",
+            "orden": "B33",
+            "latitud": -31.6345791,
+            "longitud": -60.657625
+        }
+    ]
+}

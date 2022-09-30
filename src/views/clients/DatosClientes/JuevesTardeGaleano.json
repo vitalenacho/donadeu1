@@ -1,0 +1,322 @@
+[
+    {
+        "codigo": 2171,
+        "nombreCliente": "Diaz",
+        "direccion": "risso 3329",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H01",
+        "latitud": -31.5988626,
+        "longitud": -60.7025664
+    },
+    {
+        "codigo": 2137,
+        "nombreCliente": "Segovia",
+        "direccion": "matheu 3390",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H02",
+        "latitud": -31.5914958,
+        "longitud": -60.7012541
+    },
+    {
+        "codigo": 2139,
+        "nombreCliente": "Beltrame",
+        "direccion": "san juan 8553",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H03",
+        "latitud": -31.586598,
+        "longitud": -60.7042057
+    },
+    {
+        "codigo": 2558,
+        "nombreCliente": "Maria sol",
+        "direccion": "larguia 8550",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H04",
+        "latitud": -31.5825897,
+        "longitud": -60.7226925
+    },
+    {
+        "codigo": 2142,
+        "nombreCliente": "Finos",
+        "direccion": "almonacid 5120",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H05",
+        "latitud": -31.5825828,
+        "longitud": -60.7223217
+    },
+    {
+        "codigo": 2885,
+        "nombreCliente": "Lassaga",
+        "direccion": "jose civil 5248",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H06",
+        "latitud": -31.5815141,
+        "longitud": -60.7238087
+    },
+    {
+        "codigo": 1730,
+        "nombreCliente": "Cheneri",
+        "direccion": "almonacid 5399",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H07",
+        "latitud": -31.5819261,
+        "longitud": -60.7252854
+    },
+    {
+        "codigo": 3034,
+        "nombreCliente": "Gamarra",
+        "direccion": "Chiclana 8536",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H08",
+        "latitud": -31.5814769,
+        "longitud": -60.7252269
+    },
+    {
+        "codigo": 2168,
+        "nombreCliente": "Autoserv.JM",
+        "direccion": "piedras buena 4884",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H09",
+        "latitud": -31.5799988,
+        "longitud": -60.7210696
+    },
+    {
+        "codigo": 2159,
+        "nombreCliente": "Artasa",
+        "direccion": "piedra buena 4768",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H10",
+        "latitud": -31.5796887,
+        "longitud": -60.7190242
+    },
+    {
+        "codigo": 2156,
+        "nombreCliente": "Ayala",
+        "direccion": "f. fernandez 5060",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H11",
+        "latitud": -31.5771556,
+        "longitud": -60.7208729
+    },
+    {
+        "codigo": 2157,
+        "nombreCliente": "Devenedetto",
+        "direccion": "alcina 9099",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H12",
+        "latitud": -31.5769001,
+        "longitud": -60.7215545
+    },
+    {
+        "codigo": 2180,
+        "nombreCliente": "Almada",
+        "direccion": "Alcina 9281",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H13",
+        "latitud": -31.5744686,
+        "longitud": -60.7212921
+    },
+    {
+        "codigo": 2178,
+        "nombreCliente": "Barretto",
+        "direccion": "pj aguiar 9900",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H14",
+        "latitud": -31.5689464,
+        "longitud": -60.7193814
+    },
+    {
+        "codigo": 3053,
+        "nombreCliente": "Arevalo",
+        "direccion": "Ex Malvinas 5145",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H15",
+        "latitud": -31.5719192,
+        "longitud": -60.7188428
+    },
+    {
+        "codigo": 2176,
+        "nombreCliente": "Galarsa",
+        "direccion": "misiones 4873",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H16",
+        "latitud": -31.5749735,
+        "longitud": -60.7184749
+    },
+    {
+        "codigo": 2758,
+        "nombreCliente": "filigoy",
+        "direccion": "irigoyen 9050",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H17",
+        "latitud": -31.5783805,
+        "longitud": -60.7195346
+    },
+    {
+        "codigo": 2169,
+        "nombreCliente": "Pino",
+        "direccion": "Azopardo y berutti",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H18",
+        "latitud": -31.5858911,
+        "longitud": -60.71882
+    },
+    {
+        "codigo": 3109,
+        "nombreCliente": "Alberto",
+        "direccion": "Azopardo 8241",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H19",
+        "latitud": -31.5865677,
+        "longitud": -60.7184381
+    },
+    {
+        "codigo": 2135,
+        "nombreCliente": "Villarruel",
+        "direccion": "Berutti 4557",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H20",
+        "latitud": -31.5863456,
+        "longitud": -60.7157638
+    },
+    {
+        "codigo": 1544,
+        "nombreCliente": "Soto",
+        "direccion": "aguado 8255",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H21",
+        "latitud": -31.5869018,
+        "longitud": -60.7166434
+    },
+    {
+        "codigo": 2147,
+        "nombreCliente": "Rivera",
+        "direccion": "french 4371",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H22",
+        "latitud": -31.5877557,
+        "longitud": -60.7136469
+    },
+    {
+        "codigo": 2170,
+        "nombreCliente": "Vasilic",
+        "direccion": "french 4371",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H23",
+        "latitud": -31.5878061,
+        "longitud": -60.7136587
+    },
+    {
+        "codigo": 2141,
+        "nombreCliente": "Masa",
+        "direccion": "larrea 4869",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H24",
+        "latitud": -31.589683,
+        "longitud": -60.721338
+    },
+    {
+        "codigo": 1267,
+        "nombreCliente": "Pochi",
+        "direccion": "vieytes 4063",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H25",
+        "latitud": -31.5983848,
+        "longitud": -60.7134154
+    },
+    {
+        "codigo": 1915,
+        "nombreCliente": "Romero",
+        "direccion": "alberdi 5700",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H26",
+        "latitud": -31.6177555,
+        "longitud": -60.6862968
+    },
+    {
+        "codigo": 1798,
+        "nombreCliente": "Samyn",
+        "direccion": "derqui 1798",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H27",
+        "latitud": -31.6182766,
+        "longitud": -60.688713
+    },
+    {
+        "codigo": 1269,
+        "nombreCliente": "basilio",
+        "direccion": "j.diaz solis 8099",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H28",
+        "latitud": -31.5892379,
+        "longitud": -60.7107922
+    },
+    {
+        "codigo": 1513,
+        "nombreCliente": "sausin",
+        "direccion": "peña 8018",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H29",
+        "latitud": -31.5897082,
+        "longitud": -60.7108915
+    },
+    {
+        "codigo": 2536,
+        "nombreCliente": "zeller",
+        "direccion": "espora 3574",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H30",
+        "latitud": -31.6009155,
+        "longitud": -60.7065942
+    },
+    {
+        "codigo": 3133,
+        "nombreCliente": "Fontana",
+        "direccion": "Bv Galvez 1568",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H31",
+        "latitud": -31.6379535,
+        "longitud": -60.6916969
+    },
+    {
+        "codigo": 3160,
+        "nombreCliente": "Bouvier",
+        "direccion": "Freyre 2101",
+        "reparto": "JuevesTardeGaleano",
+        "ciudad": "Santa Fe",
+        "orden": "H32",
+        "latitud": -31.649173,
+        "longitud": -60.71937
+    }
+]

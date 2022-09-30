@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donadeu</title>
+    {{!-- Google Fonts --}}
+    <link rel="stylesheet" href="/css/bootstrap.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/img/Icons-11.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/navigation.css">
+    <link rel="stylesheet" href="/css/{{style}}">
+    {{#if style2}}
+    <link rel="stylesheet" href="/css/{{style2}}">
+    {{/if}}
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <link rel="stylesheet" href="/css/jquery-ui.css">
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+    <script src="/js/jquery-3.4.1.js"
+         crossorigin="anonymous"></script>
+    <script src="/js/jquery-ui.js"
+         crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    {{#if intro}}
+    {{{ body }}}
+    {{> message}}
+    {{else}}
+    <div class="wrapper">
+        {{#unless form}}
+        {{> navigation }}
+        {{/unless}}
+        <div id="content">
+            {{#unless form}}
+            {{> topnavbar }}
+            {{/unless}}
+            {{{ body }}}
+
+            {{> message}}
+        </div>
+        {{/if}}
+
+
+        {{!-- SCRIPTS --}}
+    </div>
+    <div class="overlay"></div>
+    <script src="/js/popper.min.js"
+        crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js"
+        crossorigin="anonymous"></script>
+    <script src="/js/cbbd903670.js" crossorigin="anonymous"></script>
+    <script
+        src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,323 @@
+html,
+body {
+    height: 95%;
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", sans-serif;
+    box-sizing: inherit;
+}
+
+#map {
+    width: 100%;
+    height: 60vh;
+    z-index: 99;
+    position: relative;
+    box-sizing: inherit;
+}
+
+#sidebarVisual p {
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+#sidebarVisual a,
+#sidebarVisual a:hover,
+#sidebarVisual a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+#sidebarVisual {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    z-index: 999;
+    background: #262626;
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sidebarVisual.active {
+    left: 0;
+}
+
+#dismiss {
+    text-align: center;
+    background: #262626;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#dismiss:hover {
+    background: #fff;
+    color: #262626;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+
+/*
+#sidebar .sidebarVisual-header {
+    background: #141414;
+}
+*/
+
+#sidebarVisual ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebarVisual ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebarVisual ul li a:hover {
+    color: #262626;
+    opacity: 0.6;
+    background: #fff;
+}
+
+#sidebarVisual ul li a:hover>img {
+    filter: invert(0%);
+}
+
+#sidebarVisual ul li.active>a,
+#sidebarVisual a[aria-expanded="true"] {
+    color: #fff;
+    background: #141414;
+}
+
+#sidebarVisual a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #141414;
+}
+
+#sidebarVisual ul.components {
+    height: 100vh;
+    overflow: scroll;
+    overflow-y: scroll;
+}
+
+.inputGroup {
+    box-sizing: inherit;
+    background-color: #333333;
+    display: block;
+    margin: 0px 0px;
+    position: relative;
+    transition: all 200ms ease-in;
+}
+
+.inputGroup label {
+    /*font-size: 18px;*/
+    box-sizing: inherit;
+    padding: 5% 5%;
+    width: 100%;
+    display: block;
+    text-align: left;
+    color: #999999;
+    cursor: pointer;
+    position: relative;
+    background-color: #333333;
+    opacity: 0.85;
+    z-index: 2;
+    -webkit-transition: color 200ms ease-in;
+    transition: color 200ms ease-in;
+    overflow: hidden;
+}
+
+.card-header .fa {
+    transition: .3s transform ease-in-out;
+}
+
+.card-header .collapsed .fa {
+    transform: rotate(90deg);
+}
+
+
+/*
+.inputGroup label:before {
+    box-sizing: inherit;
+    width: 100%;
+    height: 10px;
+    border-radius: 50%;
+    content: "";
+    background-color: #0e0e0e;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%) scale3d(1, 1, 1);
+    transform: translate(-50%, -50%) scale3d(1, 1, 1);
+    -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    z-index: -1;
+}
+
+.inputGroup label:after {
+    box-sizing: inherit;
+    width: 32px;
+    height: 32px;
+    content: "";
+    border: 2px solid #d1d7dc;
+    background-color: #333333;
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.414 11L4 12.414l5.414 5.414L20.828 6.414 19.414 5l-10 10z' fill='%23fff' fill-rule='nonzero'/%3E%3C/svg%3E ");
+    background-repeat: no-repeat;
+    background-position: 2px 3px;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    -webkit-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+*/
+
+.inputGroup input:checked~label {
+    box-sizing: inherit;
+    color: black;
+}
+
+.inputGroup input:checked~label:before {
+    box-sizing: inherit;
+    -webkit-transform: translate(-50%, -50%) scale3d(56, 56, 1);
+    transform: translate(-50%, -50%) scale3d(56, 56, 1);
+    opacity: 1;
+}
+
+.inputGroup input:checked~label:after {
+    box-sizing: inherit;
+    background-color: #54e0c7;
+    border-color: #54e0c7;
+}
+
+.inputGroup input {
+    box-sizing: inherit;
+    width: 32px;
+    height: 32px;
+    -webkit-box-ordinal-group: 2;
+    order: 1;
+    z-index: 2;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.formMapa {
+    padding: 0 16px;
+    max-width: 550px;
+    margin: 50px auto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    position: absolute;
+    box-sizing: inherit;
+}
+
+.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+
+.autocomplete input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.autocomplete input[type=text] {
+    background-color: #f1f1f1;
+    display: inline-block;
+    width: 100%;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+    font-size: 14px;
+}
+
+
+/*when hovering an item:*/
+
+.autocomplete-items div:hover {
+    background-color: #e9e9e9;
+}
+
+
+/*when navigating through the items using the arrow keys:*/
+
+.autocomplete-active {
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}

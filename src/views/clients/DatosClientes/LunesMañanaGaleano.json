@@ -1,0 +1,292 @@
+{
+    "clientes": [
+        {
+            "codigo": 1266,
+            "nombreCliente": "Dipiero",
+            "direccion": "san martin 6635",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A01",
+            "latitud": -31.6071331,
+            "longitud": -60.6947364
+        },
+        {
+            "codigo": 1509,
+            "nombreCliente": "Carniceria Michia",
+            "direccion": "boneo esq.san M",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A03",
+            "latitud": -31.604609,
+            "longitud": -60.694051
+        },
+        {
+            "codigo": 1510,
+            "nombreCliente": "Ymoff",
+            "direccion": "boneo 2654",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A04",
+            "latitud": -31.6045921,
+            "longitud": -60.6942558
+        },
+        {
+            "codigo": 2997,
+            "nombreCliente": "Meza Ines",
+            "direccion": "San Jeronimo 7361",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A05",
+            "latitud": -31.6000631,
+            "longitud": -60.6943739
+        },
+        {
+            "codigo": 2821,
+            "nombreCliente": "baina",
+            "direccion": "pj 36,50 8327",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A06",
+            "latitud": -31.5929959,
+            "longitud": -60.6806749
+        },
+        {
+            "codigo": 3024,
+            "nombreCliente": "Miño",
+            "direccion": "Sarmiento 8375",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A07",
+            "latitud": -31.5930161,
+            "longitud": -60.6801956
+        },
+        {
+            "codigo": 1512,
+            "nombreCliente": "masilla",
+            "direccion": "necochea 7987",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A08",
+            "latitud": -31.5967654,
+            "longitud": -60.6823836
+        },
+        {
+            "codigo": 1511,
+            "nombreCliente": "Molina",
+            "direccion": "mitre 8229",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A09",
+            "latitud": -31.5951101,
+            "longitud": -60.6782259
+        },
+        {
+            "codigo": 1599,
+            "nombreCliente": "Ropulo",
+            "direccion": "alberdi 8271",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A10",
+            "latitud": -31.5960323,
+            "longitud": -60.6790723
+        },
+        {
+            "codigo": 1271,
+            "nombreCliente": "Granja",
+            "direccion": "pavon esq.mitre",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A11",
+            "latitud": -31.5990036,
+            "longitud": -60.6795788
+        },
+        {
+            "codigo": 1260,
+            "nombreCliente": "Vargas",
+            "direccion": "12 inf. 1499",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A12",
+            "latitud": -31.6011234,
+            "longitud": -60.6803335
+        },
+        {
+            "codigo": 2941,
+            "nombreCliente": "Luit",
+            "direccion": "Padre g . 1533",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A13",
+            "latitud": -31.6025139,
+            "longitud": -60.6812327
+        },
+        {
+            "codigo": 2057,
+            "nombreCliente": "Nigora",
+            "direccion": "lavalle 7412",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A14",
+            "latitud": -31.6024858,
+            "longitud": -60.6796278
+        },
+        {
+            "codigo": 1265,
+            "nombreCliente": "Camara",
+            "direccion": "12 inf.1707",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A15",
+            "latitud": -31.6003724,
+            "longitud": -60.6824424
+        },
+        {
+            "codigo": 2968,
+            "nombreCliente": "Morales",
+            "direccion": "ayacucho esq neco",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A16",
+            "latitud": -31.5989142,
+            "longitud": -60.6831188
+        },
+        {
+            "codigo": 1781,
+            "nombreCliente": "Fernandez",
+            "direccion": "pavon 2150",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A17",
+            "latitud": -31.597428,
+            "longitud": -60.6871779
+        },
+        {
+            "codigo": 1273,
+            "nombreCliente": "Villalobos",
+            "direccion": "larrea 2001",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A18",
+            "latitud": -31.5969579,
+            "longitud": -60.6848704
+        },
+        {
+            "codigo": 3143,
+            "nombreCliente": "Lopez",
+            "direccion": "Larrea 1815",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A19",
+            "latitud": -31.5973492,
+            "longitud": -60.6829516
+        },
+        {
+            "codigo": 3099,
+            "nombreCliente": "Perez",
+            "direccion": "Azcuenaga 1731",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A20",
+            "latitud": -31.5968886,
+            "longitud": -60.6814927
+        },
+        {
+            "codigo": 1797,
+            "nombreCliente": "Rodriguez",
+            "direccion": "alberdi 6726",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A21",
+            "latitud": -31.6082602,
+            "longitud": -60.6835577
+        },
+        {
+            "codigo": 1991,
+            "nombreCliente": "Ayala",
+            "direccion": "casaelo 1725",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A22",
+            "latitud": -31.6110883,
+            "longitud": -60.6860085
+        },
+        {
+            "codigo": 2111,
+            "nombreCliente": "Berzosa",
+            "direccion": "lavaise 2641",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A23",
+            "latitud": -31.6126596,
+            "longitud": -60.6970766
+        },
+        {
+            "codigo": 1948,
+            "nombreCliente": "Ayala",
+            "direccion": "lavaise 2987",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A24",
+            "latitud": -31.6115868,
+            "longitud": -60.7017987
+        },
+        {
+            "codigo": 1949,
+            "nombreCliente": "Avalos",
+            "direccion": "llerena 2950",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A25",
+            "latitud": -31.6127099,
+            "longitud": -60.701503
+        },
+        {
+            "codigo": 1953,
+            "nombreCliente": "Ibarra",
+            "direccion": "hernandarias 2866",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A26",
+            "latitud": -31.6103374,
+            "longitud": -60.7015564
+        },
+        {
+            "codigo": 2045,
+            "nombreCliente": "Dallas",
+            "direccion": "lavaise y facundo",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A27",
+            "latitud": -31.6109558,
+            "longitud": -60.7045479
+        },
+        {
+            "codigo": 2046,
+            "nombreCliente": "Morel",
+            "direccion": "f.zuviria 6027",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A28",
+            "latitud": -31.6107354,
+            "longitud": -60.704622
+        },
+        {
+            "codigo": 2001,
+            "nombreCliente": "Liera",
+            "direccion": "saavedra 5295",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A29",
+            "latitud": -31.6174577,
+            "longitud": -60.7077008
+        },
+        {
+            "codigo": 1998,
+            "nombreCliente": "Aragón",
+            "direccion": "A.delgado 3270",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A30",
+            "latitud": -31.6190279,
+            "longitud": -60.7079071
+        },
+        {
+            "codigo": 3055,
+            "nombreCliente": "Sanchez",
+            "direccion": "M Zapata 3375",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A31",
+            "latitud": -31.6178354,
+            "longitud": -60.7090718
+        },
+        {
+            "codigo": 1796,
+            "nombreCliente": "Ayala",
+            "direccion": "Las Heras 4401",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A32",
+            "latitud": -31.6286596,
+            "longitud": -60.6955928
+        },
+        {
+            "codigo": 3038,
+            "nombreCliente": "Longoni",
+            "direccion": "Zapata 2101",
+            "reparto": "LunesMañanaGaleano",
+            "orden": "A33",
+            "latitud": -31.6213283,
+            "longitud": -60.6930741
+        }
+    ]
+}

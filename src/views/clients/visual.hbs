@@ -1,0 +1,273 @@
+<div id="contenedor">
+    <div class="container py-3">
+        <div class="row">
+            <div class="mx-auto col-sm-8">
+                <!-- form user info -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="row my-auto">
+                            <div class="col-1" style="z-index: 1;">
+                                <button type="button" onclick="window.location.href='/clientes'" class="btn btn-dark"><i
+                                        class="fas fa-chevron-circle-left"></i></button>
+                            </div>
+                            <div class="col-10 my-auto ml-2">
+                                <h5 class="text-center my-auto">Información Cliente</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <!--
+                                <div class="col-form-label col-2">
+                                    <label for="clienteModificar" class="form-control-label text-center"></label>
+                                    <select class="form-control" id="clientsKeys" name="clienteModificar"
+                                        onchange="LlenarFormulario();">
+                                        {{#each clientesKeys}}
+                                        <option value={{this}}>{{this}}</option>
+                                        {{/each}}
+                                    </select>
+                                </div>
+                                -->
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <button class="btn btn-secondary" type="button" id="dropdownMenuButton"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span id="filterId">Filtro</span> <i class="fas fa-angle-down"></i>
+                                    </button>
+                                    <div class="dropdown-menu" id="DropClient" aria-labelledby="dropdownMenuButton">
+                                        {{#each clientesKeys}}
+                                        <a data-Key={{this}} style="cursor: pointer;" onclick="llenarInput(this);"
+                                            class="dropdown-item">{{this}}</a>
+                                        {{/each}}
+                                    </div>
+                                </div>
+                                <input type="text" class="form-control selector"
+                                    aria-label="Text input with dropdown button" id="searchInput">
+                            </div>
+                        </div>
+                        <form class="form" role="form" autocomplete="off" action="/clientes/modificar" method="POST">
+                            <input type="hidden" class="form-control selector" name="clienteModificar">
+
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label form-control-label text-center">Nombre</label>
+                                <div class="col-lg-9">
+                                    <input name="nombre" class="form-control" type="text"
+                                        placeholder="Ingrese un Nombre" readonly>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label form-control-label text-center">Local</label>
+                                <div class="col-lg-9">
+                                    <input name="local" class="form-control" type="text"
+                                        placeholder="Ingrese el Nombre del Local" readonly>
+                                </div>
+                            </div>
+
+
+                            <div class="row align-items-center">
+                                <div class="col-7 pr-1">
+                                    <div class="form-group row">
+                                        <label
+                                            class="col-lg-2 mx-4 col-form-label form-control-label text-center">CUIT</label>
+                                        <div class="col-lg-8">
+                                            <input name="cuit" class="form-control" type="number" placeholder="CUIT"
+                                                readonly>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label
+                                            class="col-lg-2 mx-4 col-form-label form-control-label text-center">CUIL</label>
+                                        <div class="col-lg-8">
+                                            <input name="cuil" class="form-control" type="number" placeholder="CUIL"
+                                                readonly>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-5">
+                                    <div class="form-group text-center">
+                                        <label class="h4" for="Estado">Estado</label>
+                                        <select id="Estado" name="Estado"
+                                            class="custom-select form-control custom-select-sm" size="3"
+                                            onfocus="this.setAttribute('data-value', this.value);"
+                                            onchange="this.value = this.getAttribute('data-value');" disabled>
+                                            <option value="Potencial">Potencial</option>
+                                            <option value="Activo">Activo</option>
+                                            <option value="Inactivo">Inactivo</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label form-control-label text-center">Teléfono</label>
+                                <div class="col-lg-9">
+                                    <input name="telefono" class="form-control" type="number" placeholder="Teléfono"
+                                        readonly>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label form-control-label text-center">Teléfono</label>
+                                <div class="col-lg-9">
+                                    <input name="telefono2" class="form-control" type="number" placeholder="Teléfono"
+                                        readonly>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label form-control-label text-center">Correo</label>
+                                <div class="col-lg-9">
+                                    <input name="correo" class="form-control" type="email"
+                                        placeholder="Ingrese un Correo" readonly>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label form-control-label text-center">Dirección</label>
+                                <div class="col-lg-9 text-center">
+                                    <div class="input-group ">
+                                        <input id="auto-complete" name="direccion" class="form-control" type="text"
+                                            placeholder="¿Donde se ubica?" readonly>
+                                        <!--onkeyup="return autoCompleteListener(this, false);"
+                                            onclick="return autoCompleteListener(this, true);" required>-->
+                                        <div class="input-group-append" style="z-index: 1;">
+                                            <button type="button" class="btn btn-primary px-3" onclick="viewMap();"><i
+                                                    class="fas fa-map-marker-alt"></i></button>
+                                        </div>
+                                    </div>
+                                    <input name="direccionData" class="form-control" type="hidden">
+                                    <input name="idDireccion" class="form-control" type="hidden">
+                                </div>
+
+                                <button type="button" class="btn btn-primary mx-auto px-3 mt-2"
+                                    onclick="viewMap();">Visualizar
+                                    Dirección</button>
+
+                            </div>
+                            <div class="form-group">
+                                <label for="observacion">Observaciones</label>
+                                <textarea class="form-control" id="observacion" name="observacion" rows="3"
+                                    readonly></textarea>
+                            </div>
+                            <div style="display: none;" class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Latitud</label>
+                                <div class="col-lg-9">
+                                    <input name="lat" class="form-control" type="text" placeholder="Latitud" required>
+                                </div>
+                            </div>
+                            <div style="display: none;" class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Longitud</label>
+                                <div class="col-lg-9">
+                                    <input name="lon" class="form-control" type="text" placeholder="Longitud" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label form-control-label text-center">Código</label>
+                                <div class="col-lg-9">
+                                    <input name="Id_SistemaGestion" class="form-control" type="number"
+                                        placeholder="Codigo Sistema Gestion" readonly>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- /form user info -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="hideMap" class="modal">
+    <span onclick="document.getElementById('hideMap').style.display='none'; map.getViewPort().resize();" class="close"
+        title="Close Modal">&times;</span>
+    <form class="modal-content">
+        <div class="px-5 py-2">
+            <div id="map" class="mx-auto my-auto"></div>
+        </div>
+        <div class="form-group row">
+            <div class="input-group w-75 mx-auto">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                </div>
+                <input type="text" class="form-control" id="direccionMapa" placeholder="Direccion" readonly>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="btn-group mx-auto" role="group">
+                <button type="button"
+                    onclick="document.getElementById('hideMap').style.display='none'; map.getViewPort().resize();"
+                    class="btn btn-success mx-1">Aceptar</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script type="text/javascript" src="/js/autocomplete.js"></script>
+<script type="text/javascript" src="/js/ABMclientes.js"></script>
+<script type="text/javascript" src="/js/LocationGPS.js"></script>
+
+<script>
+    //console.log($("#DropClient")[0].children[0]);
+    window.clientsData = {{{clientesData}}};
+    window.onload = llenarInput($("#DropClient")[0].children[0]);
+    function llenarInput(elemento) {
+        $("#filterId").text(elemento.getAttribute("data-Key"));
+        $('.active').removeClass('active');
+        $(elemento).addClass('active');
+        document.getElementById("searchInput").value = "";
+        const keyName = elemento.getAttribute("data-Key");
+        //const dataForm = JSON.parse(document.getElementById("dataClient").getAttribute("data-Clientes"));
+        const dataForm = window.clientsData;
+        var dataSuggest = [];
+        for (i = 0; i < dataForm.length; i++) {
+            //if (typeof dataForm[i][keyName] === 'string') {
+            dataSuggest.push({ label: dataForm[i][keyName], idx: i })
+            //} else {
+            //    dataSuggest.push({ label: JSON.stringify(dataForm[i][keyName]), idx: i });
+            //}
+        }
+        //console.log(dataSuggest);
+        $(".selector").autocomplete({
+            source: dataSuggest
+        });
+    }
+
+    $(".selector").autocomplete({
+        select: function (event, ui) {
+            //console.log("Selectionaste");
+            const indice = ui.item.idx;
+            //const dataForm = JSON.parse(document.getElementById("dataClient").getAttribute("data-Clientes"));
+            const dataForm = window.clientsData;
+            //console.log(JSON.stringify(dataForm[indice]));
+            //LlenarFormulario_v2(dataForm[indice]);
+            LlenarFormulario_v3(dataForm[indice], false);
+        }
+    });
+
+    window.addEventListener('resize', function () {
+        map.getViewPort().resize();
+    });
+
+    function viewMap() {
+        document.getElementById('hideMap').style.display = 'block';
+        map.getViewPort().resize();
+        document.getElementById("direccionMapa").value = document.getElementById("auto-complete").value;
+    }
+
+    $('.modal-content input').keydown(function (e) {
+        if (e.keyCode == 13) {
+            e.preventDefault();
+            return false;
+        }
+    });
+
+
+
+    /*console.log(document.getElementById("clientsSelect").getAttribute());
+    for (i = 0; i < document.getElementById("clientsSelect").children.length; i++) {
+        console.log(JSON.parse(document.getElementById("clientsSelect").children[i].value).);
+
+    }
+    */
+
+</script>
+

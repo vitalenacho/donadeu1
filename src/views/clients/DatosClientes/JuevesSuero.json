@@ -1,0 +1,403 @@
+[
+    {
+        "codigo": 2595,
+        "nombreCliente": "Perez",
+        "reparto": "JuevesSuero",
+        "ciudad": "Paiva",
+        "orden": "Q01",
+        "latitud": -31.5420571,
+        "longitud": -60.6893693
+    },
+    {
+        "codigo": 1033,
+        "nombreCliente": "Gioria",
+        "reparto": "JuevesSuero",
+        "orden": "Q03",
+        "latitud": -31.5141863,
+        "longitud": -60.6802265
+    },
+    {
+        "codigo": 1035,
+        "nombreCliente": "Burati",
+        "reparto": "JuevesSuero",
+        "orden": "Q04",
+        "latitud": -31.5123183,
+        "longitud": -60.6798607
+    },
+    {
+        "codigo": 2974,
+        "nombreCliente": "Claudio",
+        "reparto": "JuevesSuero",
+        "orden": "Q05",
+        "latitud": -31.3162271,
+        "longitud": -60.6588506
+    },
+    {
+        "codigo": 3138,
+        "nombreCliente": "La Cordial",
+        "reparto": "JuevesSuero",
+        "orden": "Q06",
+        "latitud": -31.5214996,
+        "longitud": -60.6779626
+    },
+    {
+        "codigo": 1038,
+        "nombreCliente": "Gogniat",
+        "reparto": "JuevesSuero",
+        "orden": "Q07",
+        "latitud": -31.3105445,
+        "longitud": -60.664203
+    },
+    {
+        "codigo": 1039,
+        "nombreCliente": "Robledo",
+        "reparto": "JuevesSuero",
+        "orden": "Q08",
+        "latitud": -31.4647267,
+        "longitud": -60.672635
+    },
+    {
+        "codigo": 2958,
+        "nombreCliente": "Madona",
+        "reparto": "JuevesSuero",
+        "orden": "Q09",
+        "latitud": -31.3007508,
+        "longitud": -60.655095
+    },
+    {
+        "codigo": 1066,
+        "nombreCliente": "Gomez",
+        "reparto": "JuevesSuero",
+        "orden": "Q10",
+        "latitud": -31.3110216,
+        "longitud": -60.6657532
+    },
+    {
+        "codigo": 1040,
+        "nombreCliente": "Tenales",
+        "reparto": "JuevesSuero",
+        "orden": "Q11",
+        "latitud": -31.3097339,
+        "longitud": -60.6644191
+    },
+    {
+        "codigo": 1042,
+        "nombreCliente": "Banchio",
+        "reparto": "JuevesSuero",
+        "orden": "Q12",
+        "latitud": -31.3057702,
+        "longitud": -60.6605588
+    },
+    {
+        "codigo": 3139,
+        "nombreCliente": "Lorelin",
+        "reparto": "JuevesSuero",
+        "orden": "Q14",
+        "latitud": -31.3041586,
+        "longitud": -60.6601285
+    },
+    {
+        "codigo": 3141,
+        "nombreCliente": "Sergio",
+        "reparto": "JuevesSuero",
+        "orden": "Q15",
+        "latitud": -31.3031951,
+        "longitud": -60.6598074
+    },
+    {
+        "codigo": 1044,
+        "nombreCliente": "Cilario",
+        "reparto": "JuevesSuero",
+        "orden": "Q16",
+        "latitud": -31.3031379,
+        "longitud": -60.6596179
+    },
+    {
+        "codigo": 1045,
+        "nombreCliente": "Mehuod",
+        "reparto": "JuevesSuero",
+        "orden": "Q17",
+        "latitud": -31.3036703,
+        "longitud": -60.6591242
+    },
+    {
+        "codigo": 1046,
+        "nombreCliente": "Brolesi",
+        "reparto": "JuevesSuero",
+        "orden": "Q18",
+        "latitud": -31.3042553,
+        "longitud": -60.6568779
+    },
+    {
+        "codigo": 1048,
+        "nombreCliente": "Autos.",
+        "reparto": "JuevesSuero",
+        "orden": "Q19",
+        "latitud": -31.3002408,
+        "longitud": -60.6564994
+    },
+    {
+        "codigo": 1049,
+        "nombreCliente": "Lobos",
+        "reparto": "JuevesSuero",
+        "orden": "Q21",
+        "latitud": -31.296443,
+        "longitud": -60.6563722
+    },
+    {
+        "codigo": 2393,
+        "nombreCliente": "Despensa",
+        "reparto": "JuevesSuero",
+        "orden": "Q22",
+        "latitud": -31.2927258,
+        "longitud": -60.6558009
+    },
+    {
+        "codigo": 1047,
+        "nombreCliente": "Martinez",
+        "reparto": "JuevesSuero",
+        "orden": "Q23",
+        "latitud": -31.2980818,
+        "longitud": -60.6551491
+    },
+    {
+        "codigo": 2897,
+        "nombreCliente": "Ramos",
+        "reparto": "JuevesSuero",
+        "orden": "Q24",
+        "latitud": -31.2969567,
+        "longitud": -60.6534126
+    },
+    {
+        "codigo": 1051,
+        "nombreCliente": "bordiga",
+        "reparto": "JuevesSuero",
+        "orden": "Q25",
+        "latitud": -31.2968997,
+        "longitud": -60.6534559
+    },
+    {
+        "codigo": 1052,
+        "nombreCliente": "Ferrero",
+        "reparto": "JuevesSuero",
+        "orden": "Q26",
+        "latitud": -31.2962816,
+        "longitud": -60.6523282
+    },
+    {
+        "codigo": 1053,
+        "nombreCliente": "Braca",
+        "reparto": "JuevesSuero",
+        "orden": "Q27",
+        "latitud": -31.3016022,
+        "longitud": -60.6524454
+    },
+    {
+        "codigo": 1055,
+        "nombreCliente": "Solis",
+        "reparto": "JuevesSuero",
+        "orden": "Q28",
+        "latitud": -31.305417,
+        "longitud": -60.6539639
+    },
+    {
+        "codigo": 1056,
+        "nombreCliente": "Perezón",
+        "reparto": "JuevesSuero",
+        "orden": "Q29",
+        "latitud": -31.3071796,
+        "longitud": -60.6540919
+    },
+    {
+        "codigo": 1964,
+        "nombreCliente": "Victor",
+        "reparto": "JuevesSuero",
+        "orden": "Q30",
+        "latitud": -31.3075099,
+        "longitud": -60.6514173
+    },
+    {
+        "codigo": 3140,
+        "nombreCliente": "Andrea",
+        "reparto": "JuevesSuero",
+        "orden": "Q31",
+        "latitud": -31.3081393,
+        "longitud": -60.65291
+    },
+    {
+        "codigo": 1057,
+        "nombreCliente": "Remiro",
+        "reparto": "JuevesSuero",
+        "orden": "Q32",
+        "latitud": -31.3081402,
+        "longitud": -60.6545355
+    },
+    {
+        "codigo": 2624,
+        "nombreCliente": "alicia",
+        "reparto": "JuevesSuero",
+        "orden": "Q33",
+        "latitud": -31.3086562,
+        "longitud": -60.655701
+    },
+    {
+        "codigo": 1058,
+        "nombreCliente": "Molinas",
+        "reparto": "JuevesSuero",
+        "orden": "Q34",
+        "latitud": -31.3082297,
+        "longitud": -60.6560193
+    },
+    {
+        "codigo": 1059,
+        "nombreCliente": "Ruiz",
+        "reparto": "JuevesSuero",
+        "orden": "Q35",
+        "latitud": -31.3057708,
+        "longitud": -60.6555091
+    },
+    {
+        "codigo": 1060,
+        "nombreCliente": "Gamboa",
+        "reparto": "JuevesSuero",
+        "orden": "Q36",
+        "latitud": -31.3046977,
+        "longitud": -60.662888
+    },
+    {
+        "codigo": 1912,
+        "nombreCliente": "Mercus",
+        "reparto": "JuevesSuero",
+        "orden": "Q37",
+        "latitud": -31.30392,
+        "longitud": -60.6595387
+    },
+    {
+        "codigo": 2760,
+        "nombreCliente": "Esparsa",
+        "reparto": "JuevesSuero",
+        "orden": "Q38",
+        "latitud": -31.3027884,
+        "longitud": -60.669035
+    },
+    {
+        "codigo": 2607,
+        "nombreCliente": "Albelo",
+        "reparto": "JuevesSuero",
+        "orden": "Q39",
+        "latitud": -31.3065588,
+        "longitud": -60.6702123
+    },
+    {
+        "codigo": 2213,
+        "nombreCliente": "claudio",
+        "reparto": "JuevesSuero",
+        "orden": "Q40",
+        "latitud": -31.304888,
+        "longitud": -60.6683617
+    },
+    {
+        "codigo": 1061,
+        "nombreCliente": "Bordiga",
+        "reparto": "JuevesSuero",
+        "orden": "Q41",
+        "latitud": -31.3051434,
+        "longitud": -60.6674334
+    },
+    {
+        "codigo": 2396,
+        "nombreCliente": "Robledo",
+        "reparto": "JuevesSuero",
+        "orden": "Q42",
+        "latitud": -31.3062006,
+        "longitud": -60.6677243
+    },
+    {
+        "codigo": 2660,
+        "nombreCliente": "jose",
+        "reparto": "JuevesSuero",
+        "orden": "Q43",
+        "latitud": -31.3063567,
+        "longitud": -60.6677159
+    },
+    {
+        "codigo": 1063,
+        "nombreCliente": "Orellano",
+        "reparto": "JuevesSuero",
+        "orden": "Q44",
+        "latitud": -31.3064398,
+        "longitud": -60.6668473
+    },
+    {
+        "codigo": 1064,
+        "nombreCliente": "Zanutih",
+        "reparto": "JuevesSuero",
+        "orden": "Q45",
+        "latitud": -31.3065437,
+        "longitud": -60.6655024
+    },
+    {
+        "codigo": 1065,
+        "nombreCliente": "Aressi",
+        "reparto": "JuevesSuero",
+        "orden": "Q46",
+        "latitud": -31.3074057,
+        "longitud": -60.6594332
+    },
+    {
+        "codigo": 2610,
+        "nombreCliente": "autoserv.",
+        "reparto": "JuevesSuero",
+        "orden": "Q47",
+        "latitud": -31.3129286,
+        "longitud": -60.6596657
+    },
+    {
+        "codigo": 1036,
+        "nombreCliente": "Reynauda",
+        "reparto": "JuevesSuero",
+        "orden": "Q49",
+        "latitud": -31.3723583,
+        "longitud": -60.664215
+    },
+    {
+        "codigo": 2214,
+        "nombreCliente": "Veronica",
+        "reparto": "JuevesSuero",
+        "orden": "Q50",
+        "latitud": -31.3727317,
+        "longitud": -60.6628933
+    },
+    {
+        "codigo": 2902,
+        "nombreCliente": "Favaro",
+        "reparto": "JuevesSuero",
+        "orden": "Q51",
+        "latitud": -31.4225671,
+        "longitud": -60.6649719
+    },
+    {
+        "codigo": 1067,
+        "nombreCliente": "Guzman",
+        "reparto": "JuevesSuero",
+        "orden": "Q52",
+        "latitud": -31.430321,
+        "longitud": -60.666666
+    },
+    {
+        "codigo": 1068,
+        "nombreCliente": "Fabrimar",
+        "reparto": "JuevesSuero",
+        "orden": "Q53",
+        "latitud": -31.5544338,
+        "longitud": -60.6766499
+    },
+    {
+        "codigo": 1031,
+        "nombreCliente": "Eleguiza",
+        "reparto": "JuevesSuero",
+        "orden": "Q54",
+        "latitud": -31.5547106,
+        "longitud": -60.6758487
+    }
+]

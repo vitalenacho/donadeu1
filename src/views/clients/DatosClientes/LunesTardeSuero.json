@@ -1,0 +1,112 @@
+{
+    "clientes": [
+        {
+            "codigo": 1801,
+            "nombreCliente": "Visen",
+            "direccion": "las 2 lagunas",
+            "reparto": "LunesTardeSuero",
+            "orden": "M01",
+            "latitud": -31.6304732,
+            "longitud": -60.7726095
+        },
+        {
+            "codigo": 2003,
+            "nombreCliente": "cristian",
+            "direccion": "batalla de maipu",
+            "reparto": "LunesTardeSuero",
+            "orden": "M02",
+            "latitud": -31.6245708,
+            "longitud": -60.7583431
+        },
+        {
+            "codigo": 1150,
+            "nombreCliente": "Sandra",
+            "direccion": "san lorenzo 8499",
+            "reparto": "LunesTardeSuero",
+            "orden": "M03",
+            "latitud": -31.5872158,
+            "longitud": -60.7002639
+        },
+        {
+            "codigo": 1523,
+            "nombreCliente": "Gonzalez",
+            "direccion": "san lorenzo 8500",
+            "reparto": "LunesTardeSuero",
+            "orden": "M04",
+            "latitud": -31.5861978,
+            "longitud": -60.6996557
+        },
+        {
+            "codigo": 2916,
+            "nombreCliente": "Rivolta",
+            "direccion": "Piedrabuena 3202",
+            "reparto": "LunesTardeSuero",
+            "orden": "M05",
+            "latitud": -31.5850518,
+            "longitud": -60.6973831
+        },
+        {
+            "codigo": 3306,
+            "nombreCliente": "Lorena",
+            "direccion": "Urquiza 9220",
+            "reparto": "LunesTardeSuero",
+            "orden": "M06",
+            "latitud": -31.5829873,
+            "longitud": -60.6950438
+        },
+        {
+            "codigo": 3095,
+            "nombreCliente": "Raquel",
+            "direccion": "Urquiza 9388",
+            "reparto": "LunesTardeSuero",
+            "orden": "M07",
+            "latitud": -31.5817902,
+            "longitud": -60.6942076
+        },
+        {
+            "codigo": 1235,
+            "nombreCliente": "Juana",
+            "direccion": "Misiones 3036",
+            "reparto": "LunesTardeSuero",
+            "orden": "M08",
+            "latitud": -31.5802963,
+            "longitud": -60.6932623
+        },
+        {
+            "codigo": 1234,
+            "nombreCliente": "Veronica",
+            "direccion": "4 de enero 9485",
+            "reparto": "LunesTardeSuero",
+            "orden": "M09",
+            "latitud": -31.5804699,
+            "longitud": -60.6929908
+        },
+        {
+            "codigo": 3265,
+            "nombreCliente": "Gallardo",
+            "direccion": "1 de mayo 9449",
+            "reparto": "LunesTardeSuero",
+            "orden": "M10",
+            "latitud": -31.5807608,
+            "longitud": -60.6919321
+        },
+        {
+            "codigo": 2900,
+            "nombreCliente": "Martine",
+            "direccion": "4 de enero 9395",
+            "reparto": "LunesTardeSuero",
+            "orden": "M11",
+            "latitud": -31.5808074,
+            "longitud": -60.6929349
+        },
+        {
+            "codigo": 2952,
+            "nombreCliente": "Andrea",
+            "direccion": "4 de enero 9218",
+            "reparto": "LunesTardeSuero",
+            "orden": "M12",
+            "latitud": -31.5831378,
+            "longitud": -60.6936956
+        }
+    ]
+}
